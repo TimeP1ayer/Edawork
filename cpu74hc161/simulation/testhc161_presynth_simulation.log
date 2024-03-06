@@ -1,0 +1,39 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:52:22 on Jan 03,2024
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/cpu74hc161/hdl/hc161.v 
+# -- Compiling module hc161
+# 
+# Top level modules:
+# 	hc161
+# End time: 14:52:22 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:52:22 on Jan 03,2024
+# vlog -reportprogress 300 "+incdir+C:/EDA/cpu74hc161/stimulus" -vlog01compat -work presynth C:/EDA/cpu74hc161/stimulus/testhc161.v 
+# -- Compiling module test161
+# 
+# Top level modules:
+# 	test161
+# End time: 14:52:22 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.testhc161 
+# Start time: 14:52:22 on Jan 03,2024
+# ** Error: (vsim-3170) Could not find 'testhc161'.
+#         Searched libraries:
+#             C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3
+#             C:/EDA/cpu74hc161/simulation/presynth
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 14:52:44 on Jan 03,2024, Elapsed time: 0:00:22
+# Errors: 1, Warnings: 0

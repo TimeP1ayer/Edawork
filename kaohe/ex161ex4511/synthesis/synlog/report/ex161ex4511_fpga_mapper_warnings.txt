@@ -1,0 +1,8 @@
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[6] is reduced to a combinational gate by constant propagation.
+@W: MT420 |Found inferred clock ex161ex4511|CP with period 10.00ns. Please declare a user-defined clock on object "p:CP"

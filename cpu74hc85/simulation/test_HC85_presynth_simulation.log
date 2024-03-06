@@ -1,0 +1,49 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 01:38:54 on Jan 03,2024
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/cpu74hc85/hdl/HC85.v 
+# -- Compiling module HC85
+# 
+# Top level modules:
+# 	HC85
+# End time: 01:38:54 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 01:38:54 on Jan 03,2024
+# vlog -reportprogress 300 "+incdir+C:/EDA/cpu74hc85/stimulus" -vlog01compat -work presynth C:/EDA/cpu74hc85/stimulus/test_HC85.v 
+# -- Compiling module test_HC85
+# 
+# Top level modules:
+# 	test_HC85
+# End time: 01:38:54 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test_HC85 
+# Start time: 01:38:54 on Jan 03,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test_HC85
+# Loading presynth.HC85
+# dataA=1011,dataB=1011,cas=100,Q=100
+# dataA=1010,dataB=1011,cas=100,Q=001
+# dataA=1010,dataB=1011,cas=001,Q=001
+# dataA=1010,dataB=1010,cas=001,Q=001
+# End time: 01:41:14 on Jan 03,2024, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 0

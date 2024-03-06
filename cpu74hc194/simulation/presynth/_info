@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/cpu74hc194/simulation
+vhc194
+Z1 !s110 1704264787
+!i10b 1
+!s100 <fnzERV9Q>_Wn2>A]XCmO2
+IZ0?OiFl;cnZaRGXXzQ^Ja2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1704264416
+8C:/EDA/cpu74hc194/hdl/hc194.v
+FC:/EDA/cpu74hc194/hdl/hc194.v
+L0 21
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1704264787.000000
+!s107 C:/EDA/cpu74hc194/hdl/hc194.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/cpu74hc194/hdl/hc194.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vtesthc194
+R1
+!i10b 1
+!s100 fG[dj2TSDE:3M_7AA1K:L0
+ISJQNlZHD`F>EC?Uljk?;S1
+R2
+R0
+w1704264441
+8C:/EDA/cpu74hc194/stimulus/testhc194.v
+FC:/EDA/cpu74hc194/stimulus/testhc194.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/cpu74hc194/stimulus/testhc194.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/cpu74hc194/stimulus|-vlog01compat|-work|presynth|C:/EDA/cpu74hc194/stimulus/testhc194.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/EDA/cpu74hc194/stimulus -vlog01compat -work presynth -O0
+R6

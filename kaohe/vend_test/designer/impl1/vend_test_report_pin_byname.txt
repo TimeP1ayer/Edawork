@@ -1,0 +1,18 @@
+*****************************************************************
+Pin Report - Date: Tue Jan 02 13:48:37 2024 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: vend_test
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port        |Pin        |Fixed      |Function |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|-----------|-----------|---------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Clk          Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
+D_in[0]      Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
+D_in[1]      Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
+D_out_mealy  Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
+D_out_moore  Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
+Reset        Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No

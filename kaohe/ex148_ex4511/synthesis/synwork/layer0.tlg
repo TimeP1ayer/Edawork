@@ -1,0 +1,11 @@
+Selecting top level module ex4511_148
+@N: CG364 :"C:\EDA\kaohe\ex148_ex4511\hdl\hc148.v":21:7:21:11|Synthesizing module hc148 in library work.
+
+@N: CG364 :"C:\EDA\kaohe\ex148_ex4511\hdl\hc4511.v":21:7:21:12|Synthesizing module hc4511 in library work.
+
+@N: CG179 :"C:\EDA\kaohe\ex148_ex4511\hdl\hc4511.v":34:21:34:25|Removing redundant assignment.
+@W: CL118 :"C:\EDA\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Latch generated from always block for signal SM_8S[7:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+
+@N: CG364 :"C:\EDA\kaohe\ex148_ex4511\component\work\ex4511_148\ex4511_148.v":9:7:9:16|Synthesizing module ex4511_148 in library work.
+

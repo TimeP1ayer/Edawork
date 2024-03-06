@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>vend_test</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P060</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/EDA/kaohe/vend_test/component/work/vend_test</location>
+    <state>GENERATED ( Wed Dec 27 15:13:03 2023 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\EDA\kaohe\vend_test\component\work\vend_test\vend_test.v</file>
+    <file>C:\EDA\kaohe\vend_test\hdl\vend_mealy.v</file>
+    <file>C:\EDA\kaohe\vend_test\hdl\vend_moore.v</file>
+  </fileset>
+  <io>
+    <port-name>D_in[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>Clk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>D_out_moore</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>Reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>D_in[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>D_out_mealy</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>vend_mealy</core-exttype>
+    <core-location>hdl\vend_mealy.v</core-location>
+    <core-name>vend_mealy_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>vend_moore</core-exttype>
+    <core-location>hdl\vend_moore.v</core-location>
+    <core-name>vend_moore_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for vend_test</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

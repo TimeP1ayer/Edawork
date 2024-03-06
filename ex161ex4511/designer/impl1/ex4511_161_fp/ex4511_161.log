@@ -1,0 +1,150 @@
+FlashPro
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+Software Version: 11.9.1.0
+Driver : 3.0.0 build 1
+programmer '67876' : FlashPro4
+Opened 'D:\ex161ex4511\designer\impl1\ex4511_161_fp\ex4511_161.pro'
+PDB file 'D:\ex161ex4511\designer\impl1\ex4511_161.pdb' has been loaded successfully.
+DESIGN : ex4511_161;  CHECKSUM : 3631;  PDB_VERSION : 1.9
+programmer '67876' : Scan Chain...
+Error: Vjtag is disconnected or shorted. Please check the FPGA's Vjtag pin is properly
+       connected. Please check that the target board is powered.
+Error: programmer '67876' : Scan Chain FAILED.
+Error: Failed to run Action.
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+programmer '67876' : Scan Chain...
+Error: programmer '67876' : Signal Integrity Failure
+       Integrity Check Pattern Not Found.
+       Integrity Check Pattern :
+       550FAAF000FF0000FFFF
+       IrScan Error.
+       TDO stuck at 0
+       Chain Analysis Failed.
+Error: programmer '67876' : Data Bit length : 8272
+Error: programmer '67876' : Compare Data  :
+       00F8FFFFFFFFFFFF37FEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0300000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000006000000000000000\
+       00E00000007000000E00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000E0010000000000000000800100FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Error: programmer '67876' : Scan Chain FAILED.
+Error: Failed to run Action.
+programmer '67876' : Scan Chain...
+Warning: programmer '67876' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '67876' : Scan Chain PASSED.
+programmer '67876' : Executing action PROGRAM
+programmer '67876' : EXPORT FSN[48] = 8178a70d18cc
+programmer '67876' : Erase ...
+programmer '67876' : Completed erase
+programmer '67876' : EXPORT CHECKSUM[16] = 3631
+programmer '67876' : Programming FPGA Array
+programmer '67876' : Verifying FPGA Array
+programmer '67876' : Verify 1 failed at row 1243.
+programmer '67876' : EXPORT ERROR_CODE[16] = 805c
+programmer '67876' : Finished: Sun Dec 24 20:50:26 2023 (Elapsed time 00:00:25)
+Error: programmer '67876' : Executing action PROGRAM FAILED, EXIT 11, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+programmer '67876' : Scan Chain...
+Warning: programmer '67876' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '67876' : Scan Chain PASSED.
+programmer '67876' : Executing action PROGRAM
+programmer '67876' : EXPORT FSN[48] = 8178a70d18cc
+programmer '67876' : Erase ...
+programmer '67876' : Completed erase
+programmer '67876' : EXPORT CHECKSUM[16] = 3631
+programmer '67876' : Programming FPGA Array
+programmer '67876' : Verifying FPGA Array
+programmer '67876' : Verify 1 failed at row 1243.
+programmer '67876' : EXPORT ERROR_CODE[16] = 805c
+programmer '67876' : Finished: Sun Dec 24 20:51:38 2023 (Elapsed time 00:00:26)
+Error: programmer '67876' : Executing action PROGRAM FAILED, EXIT 11, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+Rescanning for Programmers...
+programmer '67530' : FlashPro4
+Rescanning for Programmers DONE.
+programmer '67530' : Scan Chain...
+Warning: programmer '67530' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '67530' : Scan Chain PASSED.
+programmer '67530' : Executing action PROGRAM
+programmer '67530' : EXPORT FSN[48] = 8178a70d18cc
+programmer '67530' : Erase ...
+programmer '67530' : Completed erase
+programmer '67530' : EXPORT CHECKSUM[16] = 3631
+programmer '67530' : Programming FPGA Array
+programmer '67530' : Verifying FPGA Array
+programmer '67530' : Verify 1 failed at row 794.
+programmer '67530' : EXPORT ERROR_CODE[16] = 805c
+programmer '67530' : Finished: Sun Dec 24 20:53:07 2023 (Elapsed time 00:00:27)
+Error: programmer '67530' : Executing action PROGRAM FAILED, EXIT 11, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer '67876' : FlashPro4
+Rescanning for Programmers DONE.
+programmer '67876' : Scan Chain...
+Warning: programmer '67876' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '67876' : Scan Chain PASSED.
+programmer '67876' : Executing action PROGRAM
+programmer '67876' : EXPORT FSN[48] = 8178a70d18cc
+programmer '67876' : Erase ...
+programmer '67876' : Completed erase
+programmer '67876' : EXPORT CHECKSUM[16] = 3631
+programmer '67876' : Programming FPGA Array
+programmer '67876' : Verifying FPGA Array
+programmer '67876' :         Verifying FPGA Array -- pass
+programmer '67876' : Finished: Sun Dec 24 20:57:40 2023 (Elapsed time 00:00:28)
+programmer '67876' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'ex4511_161' has been modified. Do you want to save it? [YES]
+creating folder: D:\ex161ex4511\designer\impl1\ex4511_161_fp\projectData
+Project saved.
+Project closed.

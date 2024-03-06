@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/cpu74hc112/simulation
+vhc112
+!s110 1704264233
+!i10b 1
+!s100 h;mbV;8e^f>HeJH6O5WfY0
+I2>lM?j88oNUSK[?<ecNb=2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1704264136
+8C:/EDA/cpu74hc112/synthesis/hc112.v
+FC:/EDA/cpu74hc112/synthesis/hc112.v
+L0 5
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1704264233.000000
+!s107 C:/EDA/cpu74hc112/synthesis/hc112.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/EDA/cpu74hc112/synthesis/hc112.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work postsynth -O0
+Z4 tCvgOpt 0
+vtesthc112
+!s110 1704264234
+!i10b 1
+!s100 z7SLjMJA[APGBnd?GFiMF3
+IY[T8UAm@nC`T979T`aZU51
+R1
+R0
+w1704264047
+8C:/EDA/cpu74hc112/stimulus/testhc112.v
+FC:/EDA/cpu74hc112/stimulus/testhc112.v
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1704264234.000000
+!s107 C:/EDA/cpu74hc112/stimulus/testhc112.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/cpu74hc112/stimulus|-vlog01compat|-work|postsynth|C:/EDA/cpu74hc112/stimulus/testhc112.v|
+!s101 -O0
+!i113 1
+R3
+!s92 +incdir+C:/EDA/cpu74hc112/stimulus -vlog01compat -work postsynth -O0
+R4

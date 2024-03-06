@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/kaohe/ex161ex4511/simulation
+vex161ex4511
+Z1 !s110 1704261914
+!i10b 1
+!s100 5EFDR9[>E6>Bn0Dd?JYVK0
+IbUlzJE>mP:R:<dOReB9aG3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1704261885
+8C:/EDA/kaohe/ex161ex4511/component/work/ex161ex4511/ex161ex4511.v
+FC:/EDA/kaohe/ex161ex4511/component/work/ex161ex4511/ex161ex4511.v
+L0 9
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1704261914.000000
+!s107 C:/EDA/kaohe/ex161ex4511/component/work/ex161ex4511/ex161ex4511.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex161ex4511/component/work/ex161ex4511/ex161ex4511.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vHC161
+R1
+!i10b 1
+!s100 bTGdQ0@6ZGdCe46DFO4EA2
+Ij7>84NaJ5PIhV]zn8f7G60
+R2
+R0
+w1704251752
+8C:/EDA/kaohe/ex161ex4511/hdl/HC161.v
+FC:/EDA/kaohe/ex161ex4511/hdl/HC161.v
+Z7 L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/kaohe/ex161ex4511/hdl/HC161.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex161ex4511/hdl/HC161.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@h@c161
+vhc4511
+R1
+!i10b 1
+!s100 fdT1WoJPee7Di8i=TbTL02
+IakJEW@Y^N;kA:T`PjfaTg0
+R2
+R0
+w1704251763
+8C:/EDA/kaohe/ex161ex4511/hdl/hc4511.v
+FC:/EDA/kaohe/ex161ex4511/hdl/hc4511.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/kaohe/ex161ex4511/hdl/hc4511.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex161ex4511/hdl/hc4511.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtestbench
+R1
+!i10b 1
+!s100 8^1Y3`UYbGZ6L@4]S2_LD0
+I7aWf7?2EYm8hO39VkXdW]0
+R2
+R0
+w1704261903
+8C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v
+FC:/EDA/kaohe/ex161ex4511/stimulus/testbench.v
+R7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/kaohe/ex161ex4511/stimulus|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/EDA/kaohe/ex161ex4511/stimulus -vlog01compat -work presynth -O0
+R6

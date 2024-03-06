@@ -1,0 +1,14 @@
+FlashPro
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+Software Version: 11.9.1.0
+Driver : 3.0.0 build 1
+programmer '67876' : FlashPro4
+Opened 'D:\ex161ex4511\designer\impl1\ex4511_161_fp\ex4511_161.pro'
+The 'open_project' command succeeded.
+Error: A programming file must be loaded before running the command 'set_programming_action'.
+Error: The command 'set_programming_action' failed.
+Error: Failure when executing Tcl script. [ Line 2 ]
+Error: The Execute Script command failed.
+Project closed.

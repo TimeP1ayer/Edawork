@@ -1,0 +1,388 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.1.0"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS2X2M1"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS2X2M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "D:\ex161ex4511"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "ex4511_161::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\ex161ex4511\ex161ex4511.cxf,actgen_cxf"
+STATE="utd"
+TIME="1703421314"
+SIZE="1937"
+ENDFILE
+VALUE "<project>\component\work\ex4511_161\ex4511_161.cxf,actgen_cxf"
+STATE="utd"
+TIME="1703421820"
+SIZE="2190"
+ENDFILE
+VALUE "<project>\component\work\ex4511_161\ex4511_161.v,hdl"
+STATE="utd"
+TIME="1703421820"
+SIZE="3154"
+PARENT="<project>\component\work\ex4511_161\ex4511_161.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161.adb,adb"
+STATE="utd"
+TIME="1703421884"
+SIZE="45568"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161.ide_des,ide_des"
+STATE="utd"
+TIME="1703421839"
+SIZE="176"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161.pdb,pdb"
+STATE="utd"
+TIME="1703421981"
+SIZE="17555"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_compile_log.rpt,log"
+STATE="utd"
+TIME="1703421884"
+SIZE="8165"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_fp\ex4511_161.pro,pro"
+STATE="utd"
+TIME="1703422017"
+SIZE="2181"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_fp\projectData\ex4511_161.pdb,pdb"
+STATE="utd"
+TIME="1703423158"
+SIZE="17554"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1703422004"
+SIZE="2418"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1703422011"
+SIZE="686"
+ENDFILE
+VALUE "<project>\designer\impl1\ex4511_161_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1703422006"
+SIZE="1122"
+ENDFILE
+VALUE "<project>\designer\impl1\hc4511.adb,adb"
+STATE="utd"
+TIME="1703421346"
+SIZE="51200"
+ENDFILE
+VALUE "<project>\designer\impl1\hc4511.ide_des,ide_des"
+STATE="utd"
+TIME="1703420975"
+SIZE="172"
+ENDFILE
+VALUE "<project>\designer\impl1\hc4511_compile_log.rpt,log"
+STATE="utd"
+TIME="1703421346"
+SIZE="7457"
+ENDFILE
+VALUE "<project>\hdl\HC161.v,hdl"
+STATE="utd"
+TIME="1703421040"
+SIZE="1045"
+ENDFILE
+VALUE "<project>\hdl\hc4511.v,hdl"
+STATE="utd"
+TIME="1703420975"
+SIZE="773"
+ENDFILE
+VALUE "<project>\synthesis\ex4511_161.edn,syn_edn"
+STATE="utd"
+TIME="1703421874"
+SIZE="36489"
+ENDFILE
+VALUE "<project>\synthesis\ex4511_161.so,so"
+STATE="utd"
+TIME="1703421874"
+SIZE="204"
+ENDFILE
+VALUE "<project>\synthesis\ex4511_161_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1703421874"
+SIZE="484"
+ENDFILE
+VALUE "<project>\synthesis\ex4511_161_syn.prj,prj"
+STATE="utd"
+TIME="1703421875"
+SIZE="1790"
+ENDFILE
+VALUE "<project>\synthesis\hc4511.edn,syn_edn"
+STATE="utd"
+TIME="1703421336"
+SIZE="29404"
+ENDFILE
+VALUE "<project>\synthesis\hc4511.so,so"
+STATE="utd"
+TIME="1703421336"
+SIZE="196"
+ENDFILE
+VALUE "<project>\synthesis\hc4511_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1703421336"
+SIZE="393"
+ENDFILE
+VALUE "<project>\synthesis\hc4511_syn.prj,prj"
+STATE="utd"
+TIME="1703421337"
+SIZE="1655"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "ex4511_161::work"
+FILE "<project>\component\work\ex4511_161\ex4511_161.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\ex4511_161.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\ex4511_161.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\ex4511_161_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\ex4511_161_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+LIST "hc4511::work"
+FILE "<project>\hdl\hc4511.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\hc4511.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\hc4511_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\hc4511_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=ex161ex4511
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l HC161_4511_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "ex4511_161::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\ex4511_161.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\ex4511_161.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "hc4511::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\hc4511.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Program Device:ex4511_161_program.log
+StartPage;StartPage;0
+SmartDesign;ex4511_161;0
+ACTIVEVIEW;ex4511_161
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ex4511_161::work","component\work\ex4511_161\ex4511_161.v","TRUE","FALSE"
+SUBBLOCK "HC161::work","hdl\HC161.v","FALSE","FALSE"
+SUBBLOCK "hc4511::work","hdl\hc4511.v","FALSE","FALSE"
+ENDLIST
+LIST "HC161::work","hdl\HC161.v","FALSE","FALSE"
+ENDLIST
+LIST "hc4511::work","hdl\hc4511.v","FALSE","FALSE"
+ENDLIST
+LIST "ex161ex4511::work","component\work\ex161ex4511\ex161ex4511.cxf","TRUE","TRUE"
+SUBBLOCK "HC161::work","hdl\HC161.v","FALSE","FALSE"
+SUBBLOCK "hc4511::work","hdl\hc4511.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "hc4511::work"
+ACTIVETESTBENCH "ex161ex4511::work","component\work\ex161ex4511\ex161ex4511.cxf","TRUE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

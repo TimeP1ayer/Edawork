@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell hc112.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         2       1.0        2.0
+                              AXOI5         2       1.0        2.0
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF        10       0.0        0.0
+                                INV         2       1.0        2.0
+                                OA1         2       1.0        2.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             26                 10.0

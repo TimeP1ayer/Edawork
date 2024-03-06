@@ -1,0 +1,2 @@
+@W: CL118 :"D:\ex161ex4511\hdl\hc4511.v":11:4:11:5|Latch generated from always block for signal SM_8S[7:0]; possible missing assignment in an if or case statement.
+

@@ -1,0 +1,11 @@
+Selecting top level module vend_moore
+@N: CG364 :"C:\EDA\vend_moore\hdl\vend_moore.v":21:7:21:16|Synthesizing module vend_moore in library work.
+
+@N: CL201 :"C:\EDA\vend_moore\hdl\vend_moore.v":81:0:81:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000

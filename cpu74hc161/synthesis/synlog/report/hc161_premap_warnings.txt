@@ -1,0 +1,1 @@
+@W: MT530 :"c:\eda\cpu74hc161\hdl\hc161.v":31:0:31:5|Found inferred clock hc161|CP which controls 5 sequential elements including qaux[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

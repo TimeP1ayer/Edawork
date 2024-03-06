@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  C:\EDA\vend_mealy\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\vend_mealy\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\vend_mealy\synthesis\synlog\report\vend_mealy_premap.xml  -top_level_module  vend_mealy  -oedif  C:\EDA\vend_mealy\synthesis\vend_mealy.edn  -conchk_prepass  C:\EDA\vend_mealy\synthesis\vend_mealy_cck.rpt   -freq 100.000   C:\EDA\vend_mealy\synthesis\synwork\vend_mealy_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\EDA\vend_mealy\synthesis\synwork\vend_mealy_prem.srd  -qsap  C:\EDA\vend_mealy\synthesis\vend_mealy.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  C:\EDA\vend_mealy\synthesis\syntmp\vend_mealy.plg  -osyn  C:\EDA\vend_mealy\synthesis\synwork\vend_mealy_prem.srd  -prjdir  C:\EDA\vend_mealy\synthesis\  -prjname  vend_mealy_syn  -log  C:\EDA\vend_mealy\synthesis\synlog\vend_mealy_premap.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\vend_mealy_premap.xml -top_level_module vend_mealy -oedif ..\vend_mealy.edn -conchk_prepass ..\vend_mealy_cck.rpt -freq 100.000 ..\synwork\vend_mealy_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\vend_mealy_prem.srd -qsap ..\vend_mealy.sap -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam vend_mealy.plg -osyn ..\synwork\vend_mealy_prem.srd -prjdir ..\ -prjname vend_mealy_syn -log ..\synlog\vend_mealy_premap.srr
+rc:1 success:1 runtime:2
+file:..\scratchproject.prs|io:o|time:1703659885|size:1677|exec:0|csum:
+file:..\vend_mealy.edn|io:o|time:0|size:0|exec:0|csum:
+file:..\vend_mealy_cck.rpt|io:o|time:1703659891|size:20084|exec:0|csum:
+file:..\synwork\vend_mealy_mult.srs|io:i|time:1703659889|size:1811|exec:0|csum:5DFFAC271EA477FB9EC2648A0E805E26
+file:..\synwork\vend_mealy_prem.srd|io:o|time:1703659891|size:2453|exec:0|csum:
+file:..\vend_mealy.sap|io:o|time:1703659891|size:234|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:vend_mealy.plg|io:o|time:1703659891|size:0|exec:0|csum:
+file:..\synwork\vend_mealy_prem.srd|io:o|time:1703659891|size:2453|exec:0|csum:
+file:..\synlog\vend_mealy_premap.srr|io:o|time:1703659891|size:3233|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

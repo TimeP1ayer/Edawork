@@ -1,0 +1,132 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+Date: Mon Dec 04 01:14:31 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------+
+| Topcell | hc02                                       |
+| Format  | EDIF                                       |
+| Source  | C:\EDA\74hc02\cpu74hc02\synthesis\hc02.edn |
++---------+--------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1    | 6060  | 0.02       |
+| DFF                       | 0    | 6060  | 0.00       |
+| I/O Register              | 0    | 621   | 0.00       |
+| User I/O                  | 3    | 207   | 1.45       |
+| -- Single-ended I/O       | 3    | 207   | 1.45       |
+| -- Differential I/O Pairs | 0    | 103   | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 0    | 8     | 0.00       |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1    | 0   |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1    | 0   |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 1            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  2    |  1     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  3    | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------+
+| Fanout | Type    | Name                 |
++--------+---------+----------------------+
+| 1      | INT_NET | Net   : a_c          |
+|        |         | Driver: a_ibuf       |
+| 1      | INT_NET | Net   : b_c          |
+|        |         | Driver: b_ibuf       |
+| 1      | INT_NET | Net   : N_3_i        |
+|        |         | Driver: out_obuf_RNO |
++--------+---------+----------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------+
+| Fanout | Type    | Name                 |
++--------+---------+----------------------+
+| 1      | INT_NET | Net   : a_c          |
+|        |         | Driver: a_ibuf       |
+| 1      | INT_NET | Net   : b_c          |
+|        |         | Driver: b_ibuf       |
+| 1      | INT_NET | Net   : N_3_i        |
+|        |         | Driver: out_obuf_RNO |
++--------+---------+----------------------+
+

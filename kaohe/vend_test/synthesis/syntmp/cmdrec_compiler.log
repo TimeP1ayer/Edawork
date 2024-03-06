@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\EDA\kaohe\vend_test\synthesis\synwork\vend_test_comp.srs  -top  vend_test  -hdllog  C:\EDA\kaohe\vend_test\synthesis\synlog\vend_test_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I C:\EDA\kaohe\vend_test\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  C:\EDA\kaohe\vend_test\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\EDA\kaohe\vend_test\hdl\vend_mealy.v -lib work C:\EDA\kaohe\vend_test\hdl\vend_moore.v -lib work C:\EDA\kaohe\vend_test\component\work\vend_test\vend_test.v 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\vend_test_comp.srs -top vend_test -hdllog ..\synlog\vend_test_compiler.srr -encrypt -mp 4 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib ..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\vend_mealy.v -lib work ..\..\hdl\vend_moore.v -lib work ..\..\component\work\vend_test\vend_test.v
+rc:0 success:1 runtime:1
+file:..\synwork\vend_test_comp.srs|io:o|time:1704174510|size:3759|exec:0|csum:
+file:..\synlog\vend_test_compiler.srr|io:o|time:1704174510|size:3693|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\vend_mealy.v|io:i|time:1703660681|size:2072|exec:0|csum:D47A1A28F11D0679B93113FD3C799DCB
+file:..\..\hdl\vend_moore.v|io:i|time:1703660691|size:1992|exec:0|csum:BD9F25A6E28411FE26BDB16A95B438D6
+file:..\..\component\work\vend_test\vend_test.v|io:i|time:1703661182|size:2193|exec:0|csum:4E2AA7DA6BE4ACE2B012A09EE025622D
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

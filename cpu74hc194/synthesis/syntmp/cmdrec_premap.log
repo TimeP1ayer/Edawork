@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  C:\EDA\cpu74hc194\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\cpu74hc194\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\cpu74hc194\synthesis\synlog\report\hc194_premap.xml  -top_level_module  hc194  -oedif  C:\EDA\cpu74hc194\synthesis\hc194.edn  -conchk_prepass  C:\EDA\cpu74hc194\synthesis\hc194_cck.rpt   -freq 100.000   C:\EDA\cpu74hc194\synthesis\synwork\hc194_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\EDA\cpu74hc194\synthesis\synwork\hc194_prem.srd  -qsap  C:\EDA\cpu74hc194\synthesis\hc194.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  C:\EDA\cpu74hc194\synthesis\syntmp\hc194.plg  -osyn  C:\EDA\cpu74hc194\synthesis\synwork\hc194_prem.srd  -prjdir  C:\EDA\cpu74hc194\synthesis\  -prjname  hc194_syn  -log  C:\EDA\cpu74hc194\synthesis\synlog\hc194_premap.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\hc194_premap.xml -top_level_module hc194 -oedif ..\hc194.edn -conchk_prepass ..\hc194_cck.rpt -freq 100.000 ..\synwork\hc194_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\hc194_prem.srd -qsap ..\hc194.sap -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam hc194.plg -osyn ..\synwork\hc194_prem.srd -prjdir ..\ -prjname hc194_syn -log ..\synlog\hc194_premap.srr
+rc:1 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1704264821|size:1662|exec:0|csum:
+file:..\hc194.edn|io:o|time:0|size:0|exec:0|csum:
+file:..\hc194_cck.rpt|io:o|time:1704264823|size:20066|exec:0|csum:
+file:..\synwork\hc194_mult.srs|io:i|time:1704264823|size:1631|exec:0|csum:5CC2932CFC5A2F49F8C012E3EFE6F093
+file:..\synwork\hc194_prem.srd|io:o|time:1704264823|size:2371|exec:0|csum:
+file:..\hc194.sap|io:o|time:1704264823|size:266|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:hc194.plg|io:o|time:1704264823|size:0|exec:0|csum:
+file:..\synwork\hc194_prem.srd|io:o|time:1704264823|size:2371|exec:0|csum:
+file:..\synlog\hc194_premap.srr|io:o|time:1704264823|size:2791|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

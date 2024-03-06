@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP1 (Version 11.9.1.0)
+
+Date      :  Sun Dec 24 20:43:40 2023
+Project   :  D:\ex161ex4511
+Component :  ex4511_161
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ex161ex4511/component/work/ex4511_161/ex4511_161.v
+

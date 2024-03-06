@@ -1,0 +1,122 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/kaohe/ex148_ex4511/simulation
+vex4511_148
+Z1 !s110 1704250611
+!i10b 1
+!s100 [BPHQ;]?`fS6EnoU=7@5f1
+IY1TC:lBjj]>lKIK;FUWFC3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703664752
+8C:/EDA/kaohe/ex148_ex4511/component/work/ex4511_148/ex4511_148.v
+FC:/EDA/kaohe/ex148_ex4511/component/work/ex4511_148/ex4511_148.v
+L0 9
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1704250611.000000
+!s107 C:/EDA/kaohe/ex148_ex4511/component/work/ex4511_148/ex4511_148.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex148_ex4511/component/work/ex4511_148/ex4511_148.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vhc148
+!s110 1704250610
+!i10b 1
+!s100 GVdZ[ZHn?Zc42cAnW24Ue0
+I=eA5caMdiEUP15?l``?891
+R2
+R0
+w1703655426
+8C:/EDA/kaohe/ex148_ex4511/hdl/hc148.v
+FC:/EDA/kaohe/ex148_ex4511/hdl/hc148.v
+Z7 L0 21
+R3
+r1
+!s85 0
+31
+!s108 1704250610.000000
+!s107 C:/EDA/kaohe/ex148_ex4511/hdl/hc148.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex148_ex4511/hdl/hc148.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vhc4511
+R1
+!i10b 1
+!s100 :TNnUUEcaSPfFLg0XE_:k2
+I79B2i9[AXNdEMoNTAf[=61
+R2
+R0
+w1703655436
+8C:/EDA/kaohe/ex148_ex4511/hdl/hc4511.v
+FC:/EDA/kaohe/ex148_ex4511/hdl/hc4511.v
+R7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/kaohe/ex148_ex4511/hdl/hc4511.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex148_ex4511/hdl/hc4511.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vt
+!s110 1703664787
+!i10b 1
+!s100 QlS_`Bgnb4_S@RdmKK]:b3
+IS?VKfS2VZ9iGdN?=FRMBa3
+R2
+R0
+w1703664733
+8C:/EDA/kaohe/ex148_ex4511/stimulus/t.v
+FC:/EDA/kaohe/ex148_ex4511/stimulus/t.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1703664787.000000
+!s107 C:/EDA/kaohe/ex148_ex4511/stimulus/t.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/kaohe/ex148_ex4511/stimulus|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex148_ex4511/stimulus/t.v|
+!s101 -O0
+!i113 1
+R5
+Z8 !s92 +incdir+C:/EDA/kaohe/ex148_ex4511/stimulus -vlog01compat -work presynth -O0
+R6
+vtestbench
+R1
+!i10b 1
+!s100 8VH_RlFK`]g>:KlDERf;d0
+IF<b8aVMEnf7@FMlb]nmPf2
+R2
+R0
+w1703665850
+8C:/EDA/kaohe/ex148_ex4511/stimulus/testbench.v
+FC:/EDA/kaohe/ex148_ex4511/stimulus/testbench.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/kaohe/ex148_ex4511/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/kaohe/ex148_ex4511/stimulus|-vlog01compat|-work|presynth|C:/EDA/kaohe/ex148_ex4511/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+R8
+R6

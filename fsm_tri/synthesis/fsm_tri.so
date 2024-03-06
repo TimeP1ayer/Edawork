@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>fsm_tri</design>
+	<target_edif>C:\EDA\fsm_tri\synthesis\fsm_tri.edn</target_edif>
+</SynplifyOutput>

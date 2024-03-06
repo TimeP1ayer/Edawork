@@ -1,0 +1,2 @@
+@E: CG283 :"C:\EDA\cpu74hc283\hdl\hc283.v":31:0:31:5|Procedural assign is not a supported statement
+

@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/kaohe/vend_test/simulation
+vtestbench_vend
+Z1 !s110 1704174468
+!i10b 1
+!s100 =0RYAN]Io<H7X]EnT5H2j0
+I:lC8Vm4;7C=>ko2f89MPh2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703661177
+8C:/EDA/kaohe/vend_test/stimulus/testbench_vend.v
+FC:/EDA/kaohe/vend_test/stimulus/testbench_vend.v
+Z3 L0 21
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1704174468.000000
+!s107 C:/EDA/kaohe/vend_test/stimulus/testbench_vend.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/kaohe/vend_test/stimulus|-vlog01compat|-work|presynth|C:/EDA/kaohe/vend_test/stimulus/testbench_vend.v|
+!s101 -O0
+!i113 1
+Z6 o-vlog01compat -work presynth -O0
+!s92 +incdir+C:/EDA/kaohe/vend_test/stimulus -vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
+vvend_mealy
+R1
+!i10b 1
+!s100 N3EbSkMliVBWL1f]0@JD70
+IzDBKQPh]Ci2V1`a:Ca[2f3
+R2
+R0
+w1703660681
+8C:/EDA/kaohe/vend_test/hdl/vend_mealy.v
+FC:/EDA/kaohe/vend_test/hdl/vend_mealy.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/EDA/kaohe/vend_test/hdl/vend_mealy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/vend_test/hdl/vend_mealy.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vvend_moore
+R1
+!i10b 1
+!s100 `8XE1=H?1YO3N9o2ozTmY2
+IQUXB:TRb5h9UQfoji<JG90
+R2
+R0
+w1703660691
+8C:/EDA/kaohe/vend_test/hdl/vend_moore.v
+FC:/EDA/kaohe/vend_test/hdl/vend_moore.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/EDA/kaohe/vend_test/hdl/vend_moore.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/vend_test/hdl/vend_moore.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vvend_test
+R1
+!i10b 1
+!s100 8c<fLzFed0Ck2OdH_05QA2
+I;8Ab`K]7NSla@XJR<SAaX2
+R2
+R0
+w1703661182
+8C:/EDA/kaohe/vend_test/component/work/vend_test/vend_test.v
+FC:/EDA/kaohe/vend_test/component/work/vend_test/vend_test.v
+L0 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/EDA/kaohe/vend_test/component/work/vend_test/vend_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/kaohe/vend_test/component/work/vend_test/vend_test.v|
+!s101 -O0
+!i113 1
+R6
+R7

@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  fsm_tri  -multisrs  C:\EDA\fsm_tri\synthesis\synwork\fsm_tri_comp.srs  -osyn  C:\EDA\fsm_tri\synthesis\synwork\fsm_tri_mult.srs  -log  C:\EDA\fsm_tri\synthesis\synlog\fsm_tri_multi_srs_gen.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top fsm_tri -multisrs ..\synwork\fsm_tri_comp.srs -osyn ..\synwork\fsm_tri_mult.srs -log ..\synlog\fsm_tri_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\fsm_tri_comp.srs|io:i|time:1704174022|size:1799|exec:0|csum:2F211E3DF60E215951420D7B11C7E6D6
+file:..\synwork\fsm_tri_mult.srs|io:o|time:1704174023|size:1543|exec:0|csum:
+file:..\synlog\fsm_tri_multi_srs_gen.srr|io:o|time:1704174023|size:409|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

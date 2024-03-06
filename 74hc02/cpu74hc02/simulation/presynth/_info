@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/74hc02/cpu74hc02/simulation
+vhc02
+Z1 !s110 1701623580
+!i10b 1
+!s100 9AK8g=4@QSd3Cj>>lZGkY2
+IWNiHPWJ9WXe5<m`;fdSbz0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701619628
+8C:/EDA/74hc02/cpu74hc02/hdl/hc02.v
+FC:/EDA/74hc02/cpu74hc02/hdl/hc02.v
+L0 21
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1701623580.000000
+!s107 C:/EDA/74hc02/cpu74hc02/hdl/hc02.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/74hc02/cpu74hc02/hdl/hc02.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vtesthc02
+R1
+!i10b 1
+!s100 ^4XnKm`4<9i^`D473ShEj3
+ILKeeJ2KBTO6[X73T0a]S70
+R2
+R0
+w1701619746
+8C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v
+FC:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/74hc02/cpu74hc02/stimulus|-vlog01compat|-work|presynth|C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/EDA/74hc02/cpu74hc02/stimulus -vlog01compat -work presynth -O0
+R6

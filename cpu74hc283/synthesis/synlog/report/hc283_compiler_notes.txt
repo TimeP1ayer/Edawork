@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\EDA\cpu74hc283\hdl\hc283.v":21:7:21:11|Synthesizing module hc283 in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\EDA\cpu74hc283\hdl\hc283.v":21:7:21:11|Selected library: work cell: hc283 view verilog as top level
+@N: NF107 :"C:\EDA\cpu74hc283\hdl\hc283.v":21:7:21:11|Selected library: work cell: hc283 view verilog as top level
+

@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\EDA\74hc00\cpu74hc00\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\74hc00\cpu74hc00\synthesis\synlog\report\hc00_fpga_mapper.xml  -top_level_module  hc00  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\EDA\74hc00\cpu74hc00\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.edn   -freq 100.000   C:\EDA\74hc00\cpu74hc00\synthesis\synwork\hc00_prem.srd  -sap  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.sap  -otap  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.tap  -omap  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.sap  -ologparam  C:\EDA\74hc00\cpu74hc00\synthesis\syntmp\hc00.plg  -osyn  C:\EDA\74hc00\cpu74hc00\synthesis\hc00.srm  -prjdir  C:\EDA\74hc00\cpu74hc00\synthesis\  -prjname  hc00_syn  -log  C:\EDA\74hc00\cpu74hc00\synthesis\synlog\hc00_fpga_mapper.srr 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\hc00_fpga_mapper.xml -top_level_module hc00 -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\hc00.edn -freq 100.000 ..\synwork\hc00_prem.srd -sap ..\hc00.sap -otap ..\hc00.tap -omap ..\hc00.map -devicelib ..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\hc00.sap -ologparam hc00.plg -osyn ..\hc00.srm -prjdir ..\ -prjname hc00_syn -log ..\synlog\hc00_fpga_mapper.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1701621631|size:1683|exec:0|csum:
+file:..\hc00.edn|io:o|time:1701622979|size:4122|exec:0|csum:
+file:..\synwork\hc00_prem.srd|io:i|time:1701622979|size:1339|exec:0|csum:CD00546D128856E559B814210D69B42A
+file:..\hc00.sap|io:o|time:1701622979|size:113|exec:0|csum:
+file:..\hc00.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\hc00.map|io:o|time:1701622979|size:28|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\hc00.sap|io:o|time:1701622979|size:113|exec:0|csum:
+file:hc00.plg|io:o|time:1701622979|size:97|exec:0|csum:
+file:..\hc00.srm|io:o|time:1701622979|size:63353|exec:0|csum:
+file:..\synlog\hc00_fpga_mapper.srr|io:o|time:1701622979|size:7379|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

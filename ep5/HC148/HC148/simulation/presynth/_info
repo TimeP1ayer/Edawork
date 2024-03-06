@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HC148/HC148/simulation
+vHC148
+Z1 !s110 1702202614
+!i10b 1
+!s100 61c4PmkNCMGT:EaL;]H<B3
+I>G^?lXQ7Oo>kBHkIliSE>1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702187108
+8D:/HC148/HC148/hdl/HC148.v
+FD:/HC148/HC148/hdl/HC148.v
+L0 3
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1702202613.000000
+!s107 D:/HC148/HC148/hdl/HC148.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/HC148/HC148/hdl/HC148.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work presynth -O0
+Z5 tCvgOpt 0
+n@h@c148
+vtest_HC148
+R1
+!i10b 1
+!s100 7`o^ka:7m]AN@2PE=Yk]>0
+IVJ5bY?9KikNXdT5Ul2;j`0
+R2
+R0
+w1702191144
+8D:/HC148/HC148/stimulus/test HC148.v
+FD:/HC148/HC148/stimulus/test HC148.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1702202614.000000
+!s107 D:/HC148/HC148/stimulus/test HC148.v|
+!s90 -reportprogress|300|+incdir+D:/HC148/HC148/stimulus|-vlog01compat|-work|presynth|D:/HC148/HC148/stimulus/test HC148.v|
+!s101 -O0
+!i113 1
+R4
+!s92 +incdir+D:/HC148/HC148/stimulus -vlog01compat -work presynth -O0
+R5
+ntest_@h@c148

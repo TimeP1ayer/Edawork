@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  ex4511_148  -multisrs  C:\EDA\kaohe\ex148_ex4511\synthesis\synwork\ex4511_148_comp.srs  -osyn  C:\EDA\kaohe\ex148_ex4511\synthesis\synwork\ex4511_148_mult.srs  -log  C:\EDA\kaohe\ex148_ex4511\synthesis\synlog\ex4511_148_multi_srs_gen.srr 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top ex4511_148 -multisrs ..\synwork\ex4511_148_comp.srs -osyn ..\synwork\ex4511_148_mult.srs -log ..\synlog\ex4511_148_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\ex4511_148_comp.srs|io:i|time:1704250700|size:5067|exec:0|csum:E413ED6BA2E5A115C642465E35E31243
+file:..\synwork\ex4511_148_mult.srs|io:o|time:1704250702|size:2845|exec:0|csum:
+file:..\synlog\ex4511_148_multi_srs_gen.srr|io:o|time:1704250702|size:409|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

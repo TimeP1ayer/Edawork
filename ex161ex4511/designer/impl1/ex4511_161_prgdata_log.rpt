@@ -1,0 +1,19 @@
+Microsemi Libero Software
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+Info: The design D:/ex161ex4511/designer/impl1/ex4511_161.adb was last modified by software
+      version 11.9.1.0.
+Opened an existing Libero design D:/ex161ex4511/designer/impl1/ex4511_161.adb.
+
+The Export-map command succeeded ( 00:00:04 )
+Warning: Overwriting the existing file: D:\ex161ex4511\designer\impl1\ex4511_161.pdb.
+Wrote to the file: D:\ex161ex4511\designer\impl1\ex4511_161.pdb
+CHECKSUM: 3631
+
+The Generate programming file command succeeded ( 00:00:04 )
+Design saved to file D:/ex161ex4511/designer/impl1/ex4511_161.adb.
+
+The Execute Script command succeeded ( 00:00:04 )
+Design closed.
+

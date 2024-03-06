@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>vend_moore</design>
+	<target_edif>C:\EDA\vend_moore\synthesis\vend_moore.edn</target_edif>
+</SynplifyOutput>

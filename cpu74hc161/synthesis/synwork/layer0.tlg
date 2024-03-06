@@ -1,0 +1,4 @@
+Selecting top level module hc161
+@N: CG364 :"C:\EDA\cpu74hc161\hdl\hc161.v":21:7:21:11|Synthesizing module hc161 in library work.
+
+@N: CG179 :"C:\EDA\cpu74hc161\hdl\hc161.v":39:12:39:15|Removing redundant assignment.

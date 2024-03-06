@@ -1,0 +1,10 @@
+@N: CD630 :".\gentmp1860a25832":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a25832":1185:7:1185:12|Synthesizing work.cmp_lt.fcomp.
+@N: CD630 :"syng0a25832":836:7:836:21|Synthesizing work.dwact_bl_fgcomp.fcomp.
+@W: CD280 :"syng0a25832":854:12:854:16|Unbound component AND2A mapped to black box
+@W: CD638 :"syng0a25832":1037:9:1037:9|Signal e is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"syng0a25832":854:12:854:16|Synthesizing work.and2a.syn_black_box.
+Post processing for work.and2a.syn_black_box
+Post processing for work.dwact_bl_fgcomp.fcomp
+Post processing for work.cmp_lt.fcomp
+Post processing for work.top.gen

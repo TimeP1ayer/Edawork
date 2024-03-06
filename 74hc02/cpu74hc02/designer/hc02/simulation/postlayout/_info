@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/74hc02/cpu74hc02/simulation
+vhc02
+Z1 !s110 1701623701
+!i10b 1
+!s100 `QTdoRgM3mGfRaoY5Q6kf2
+IC;b8>NnJ6MB9eNPoSOh5T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1701623694
+Z4 8C:/EDA/74hc02/cpu74hc02/designer/hc02/hc02_ba.v
+Z5 FC:/EDA/74hc02/cpu74hc02/designer/hc02/hc02_ba.v
+L0 45
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1701623701.000000
+Z8 !s107 C:/EDA/74hc02/cpu74hc02/designer/hc02/hc02_ba.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/EDA/74hc02/cpu74hc02/designer/hc02/hc02_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postlayout -O0
+Z11 tCvgOpt 0
+vsdf_IOPAD_IN
+R1
+!i10b 1
+!s100 jMA4ZB1fHzD<GN[nde]ef0
+I]NKG2JNAfcnblVKZ7ECjK1
+R2
+R0
+R3
+R4
+R5
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+!i10b 1
+!s100 CXTg]IE5cHhGG::K7?=dA3
+I3890^z?ZFhG=O`MFTm1?10
+R2
+R0
+R3
+R4
+R5
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@t@r@i
+vtesthc02
+R1
+!i10b 1
+!s100 ^4XnKm`4<9i^`D473ShEj3
+I1aOk4@Zknj9[5O:nKj;S>1
+R2
+R0
+w1701619746
+8C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v
+FC:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/74hc02/cpu74hc02/stimulus|-vlog01compat|-work|postlayout|C:/EDA/74hc02/cpu74hc02/stimulus/testhc02.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+C:/EDA/74hc02/cpu74hc02/stimulus -vlog01compat -work postlayout -O0
+R11

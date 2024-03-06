@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\EDA\74hc02\cpu74hc02\synthesis   -part M2S005  -package FBGA484  -grade -1    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\74hc02\cpu74hc02\synthesis\synlog\report\hc02_fpga_mapper.xml  -top_level_module  hc02  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\EDA\74hc02\cpu74hc02\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.edn   -freq 100.000   C:\EDA\74hc02\cpu74hc02\synthesis\synwork\hc02_prem.srd  -sap  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.sap  -otap  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.tap  -omap  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v  -sap  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.sap  -ologparam  C:\EDA\74hc02\cpu74hc02\synthesis\syntmp\hc02.plg  -osyn  C:\EDA\74hc02\cpu74hc02\synthesis\hc02.srm  -prjdir  C:\EDA\74hc02\cpu74hc02\synthesis\  -prjname  hc02_syn  -log  C:\EDA\74hc02\cpu74hc02\synthesis\synlog\hc02_fpga_mapper.srr 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2S005 -package FBGA484 -grade -1 -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\hc02_fpga_mapper.xml -top_level_module hc02 -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\hc02.edn -freq 100.000 ..\synwork\hc02_prem.srd -sap ..\hc02.sap -otap ..\hc02.tap -omap ..\hc02.map -devicelib ..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v -sap ..\hc02.sap -ologparam hc02.plg -osyn ..\hc02.srm -prjdir ..\ -prjname hc02_syn -log ..\synlog\hc02_fpga_mapper.srr
+rc:0 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1701623267|size:1812|exec:0|csum:
+file:..\hc02.edn|io:o|time:1701623458|size:3564|exec:0|csum:
+file:..\synwork\hc02_prem.srd|io:i|time:1701623457|size:1350|exec:0|csum:53884B59519C6B5BF010B1454F5B8FBF
+file:..\hc02.sap|io:o|time:1701623457|size:113|exec:0|csum:
+file:..\hc02.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\hc02.map|io:o|time:1701623458|size:28|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1508985798|size:16359|exec:0|csum:587C3C1194ED0BA18828F7023B991695
+file:..\hc02.sap|io:o|time:1701623457|size:113|exec:0|csum:
+file:hc02.plg|io:o|time:1701623458|size:169|exec:0|csum:
+file:..\hc02.srm|io:o|time:1701623458|size:3097|exec:0|csum:
+file:..\synlog\hc02_fpga_mapper.srr|io:o|time:1701623458|size:7813|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_generic.exe|io:i|time:1509330678|size:18200576|exec:1|csum:52A987FCAB41A5671D5E3B472F3B4626
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_generic.exe|io:i|time:1509332212|size:32918016|exec:1|csum:39651D4CAB7B7D4F35D4DD514D41AE95

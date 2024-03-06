@@ -1,0 +1,24 @@
+#add_file options
+add_file -verilog "C:/EDA/kaohe/ex161ex4511/hdl/HC161.v"
+add_file -verilog "C:/EDA/kaohe/ex161ex4511/hdl/hc4511.v"
+add_file -verilog "C:/EDA/kaohe/ex161ex4511/component/work/ex161ex4511/ex161ex4511.v"
+set_option -top_module ex161ex4511
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P060
+set_option -package VQFP100
+set_option -speed_grade STD
+set_option -vlog_std v2001
+set_option -write_verilog 0
+
+set_option -retiming 0
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "C:/EDA/kaohe/ex161ex4511/synthesis/ex161ex4511.edn"

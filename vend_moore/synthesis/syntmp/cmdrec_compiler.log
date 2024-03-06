@@ -1,0 +1,9 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\EDA\vend_moore\synthesis\synwork\vend_moore_comp.srs  -top  vend_moore  -hdllog  C:\EDA\vend_moore\synthesis\synlog\vend_moore_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I C:\EDA\vend_moore\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  C:\EDA\vend_moore\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\EDA\vend_moore\hdl\vend_moore.v 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\vend_moore_comp.srs -top vend_moore -hdllog ..\synlog\vend_moore_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\vend_moore.v
+rc:0 success:1 runtime:1
+file:..\synwork\vend_moore_comp.srs|io:o|time:1703660475|size:1818|exec:0|csum:
+file:..\synlog\vend_moore_compiler.srr|io:o|time:1703660475|size:3010|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\vend_moore.v|io:i|time:1703660461|size:1992|exec:0|csum:BD9F25A6E28411FE26BDB16A95B438D6
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

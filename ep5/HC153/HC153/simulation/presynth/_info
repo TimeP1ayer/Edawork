@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HC153/HC153/simulation
+vHC153
+Z1 !s110 1702205991
+!i10b 1
+!s100 XTUU[zNR]eE2VAH8PHN?B0
+IhJ3aOgaS`UoKMR9I:_1`R3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702189312
+8D:/HC153/HC153/hdl/HC153.v
+FD:/HC153/HC153/hdl/HC153.v
+L0 2
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1702205991.000000
+!s107 D:/HC153/HC153/hdl/HC153.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/HC153/HC153/hdl/HC153.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+n@h@c153
+vtest_HC153
+R1
+!i10b 1
+!s100 S7F5H;mJQE;<86dmVlhLk2
+IITb9Lg[GW^L?2mMB1cV4?0
+R2
+R0
+w1702189020
+8D:/HC153/HC153/stimulus/test_HC153.v
+FD:/HC153/HC153/stimulus/test_HC153.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HC153/HC153/stimulus/test_HC153.v|
+!s90 -reportprogress|300|+incdir+D:/HC153/HC153/stimulus|-vlog01compat|-work|presynth|D:/HC153/HC153/stimulus/test_HC153.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+D:/HC153/HC153/stimulus -vlog01compat -work presynth -O0
+R6
+ntest_@h@c153

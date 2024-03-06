@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock HC74|CP1 with period 10.00ns. Please declare a user-defined clock on object "p:CP1"
+@W: MT420 |Found inferred clock HC74|CP2 with period 10.00ns. Please declare a user-defined clock on object "p:CP2"

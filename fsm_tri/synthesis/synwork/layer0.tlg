@@ -1,0 +1,10 @@
+Selecting top level module fsm_tri
+@N: CG364 :"C:\EDA\fsm_tri\hdl\fsm_tri.v":21:7:21:13|Synthesizing module fsm_tri in library work.
+
+@N: CL201 :"C:\EDA\fsm_tri\hdl\fsm_tri.v":55:0:55:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11

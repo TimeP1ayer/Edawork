@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\cpu74hc112\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\cpu74hc112\synthesis\synlog\report\hc112_fpga_mapper.xml  -top_level_module  hc112  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\EDA\cpu74hc112\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\EDA\cpu74hc112\synthesis\hc112.edn   -freq 100.000   C:\EDA\cpu74hc112\synthesis\synwork\hc112_prem.srd  -sap  C:\EDA\cpu74hc112\synthesis\hc112.sap  -otap  C:\EDA\cpu74hc112\synthesis\hc112.tap  -omap  C:\EDA\cpu74hc112\synthesis\hc112.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  C:\EDA\cpu74hc112\synthesis\hc112.sap  -ologparam  C:\EDA\cpu74hc112\synthesis\syntmp\hc112.plg  -osyn  C:\EDA\cpu74hc112\synthesis\hc112.srm  -prjdir  C:\EDA\cpu74hc112\synthesis\  -prjname  hc112_syn  -log  C:\EDA\cpu74hc112\synthesis\synlog\hc112_fpga_mapper.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\hc112_fpga_mapper.xml -top_level_module hc112 -licensetype synplifypro_actel -flow mapping -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\hc112.edn -freq 100.000 ..\synwork\hc112_prem.srd -sap ..\hc112.sap -otap ..\hc112.tap -omap ..\hc112.map -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\hc112.sap -ologparam hc112.plg -osyn ..\hc112.srm -prjdir ..\ -prjname hc112_syn -log ..\synlog\hc112_fpga_mapper.srr
+rc:1 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1704264109|size:1662|exec:0|csum:
+file:..\hc112.edn|io:o|time:1704264111|size:12173|exec:0|csum:
+file:..\synwork\hc112_prem.srd|io:i|time:1704264110|size:2908|exec:0|csum:5D944D49457181FC31FA6E33DF11549C
+file:..\hc112.sap|io:o|time:1704264110|size:347|exec:0|csum:
+file:..\hc112.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\hc112.map|io:o|time:1704264111|size:28|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\hc112.sap|io:o|time:1704264110|size:347|exec:0|csum:
+file:hc112.plg|io:o|time:1704264111|size:550|exec:0|csum:
+file:..\hc112.srm|io:o|time:1704264111|size:67211|exec:0|csum:
+file:..\synlog\hc112_fpga_mapper.srr|io:o|time:1704264111|size:15731|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

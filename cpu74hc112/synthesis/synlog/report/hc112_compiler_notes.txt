@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\EDA\cpu74hc112\hdl\hc112.v":21:7:21:11|Synthesizing module hc112 in library work.
+@N: CG179 :"C:\EDA\cpu74hc112\hdl\hc112.v":38:10:38:11|Removing redundant assignment.
+@N: CG179 :"C:\EDA\cpu74hc112\hdl\hc112.v":52:10:52:11|Removing redundant assignment.
+@N|Running in 64-bit mode
+

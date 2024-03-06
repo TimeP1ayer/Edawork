@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Wed Dec 27 15:13:03 2023
+Project   :  C:\EDA\kaohe\vend_test
+Component :  vend_test
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/EDA/kaohe/vend_test/component/work/vend_test/vend_test.v
+

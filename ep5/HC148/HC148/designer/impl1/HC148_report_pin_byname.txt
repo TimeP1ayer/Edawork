@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Sun Dec 10 15:00:29 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: HC148
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port   |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+EI      28   No     GEC2/IO69RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+EO      27   No     GEB2/IO70RSB1  LVTTL    12                 High  None           No    35                No           No
+GS      29   No     IO68RSB1       LVTTL    12                 High  None           No    35                No           No
+In[0]   15   No     GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+In[1]   26   No     GEA2/IO71RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+In[2]   30   No     IO67RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[3]   31   No     IO66RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[4]   32   No     IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[5]   34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[6]   35   No     IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[7]   41   No     IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+Out[0]  33   No     IO64RSB1       LVTTL    12                 High  None           No    35                No           No
+Out[1]  40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+Out[2]  36   No     IO61RSB1       LVTTL    12                 High  None           No    35                No           No

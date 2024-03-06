@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Tue Jan 02 22:47:12 2024 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: hc148
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port     |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+---------|----|------|--------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+EI_N      2    Yes    GAA2/IO51RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+EO_N      22   Yes    GEA1/IO73RSB1  LVCMOS33  12                 High  None           No    35                No           No
+GS_N      33   Yes    IO64RSB1       LVCMOS33  12                 High  None           No    35                No           No
+in_N[0]   44   Yes    GDC2/IO56RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[1]   45   Yes    GDB2/IO55RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[2]   46   Yes    GDA2/IO54RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[3]   78   Yes    GBB1/IO22RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[4]   79   Yes    GBB0/IO21RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[5]   80   Yes    GBC1/IO20RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[6]   81   Yes    GBC0/IO19RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+in_N[7]   82   Yes    IO18RSB0       LVCMOS33  ---                ---   None           ---   ---               No           No
+out_N[0]  83   Yes    IO17RSB0       LVCMOS33  12                 High  None           No    35                No           No
+out_N[1]  84   Yes    IO15RSB0       LVCMOS33  12                 High  None           No    35                No           No
+out_N[2]  85   Yes    IO13RSB0       LVCMOS33  12                 High  None           No    35                No           No

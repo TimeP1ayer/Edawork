@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"c:\eda\kaohe\ex161ex4511\hdl\hc161.v":42:1:42:6|Removing sequential instance TC (in view: work.HC161(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file C:\EDA\kaohe\ex161ex4511\synthesis\ex161ex4511.sap.

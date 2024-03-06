@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN225 |Writing default property annotation file C:\EDA\kaohe\vend_test\synthesis\vend_test.sap.
+@N: MO225 :"c:\eda\kaohe\vend_test\hdl\vend_mealy.v":30:0:30:5|There are no possible illegal states for state machine current_state[3:0] (in view: work.vend_mealy(verilog)); safe FSM implementation is not required.

@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/kaohe/ex161ex4511/simulation
+vex161ex4511
+Z1 !s110 1704262077
+!i10b 1
+!s100 gE`SmC9K6ZU^<BUU202lJ2
+I?1]j>2D;m=E7^lBO1l`<d1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1704262070
+Z4 8C:/EDA/kaohe/ex161ex4511/synthesis/ex161ex4511.v
+Z5 FC:/EDA/kaohe/ex161ex4511/synthesis/ex161ex4511.v
+L0 97
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1704262077.000000
+Z8 !s107 C:/EDA/kaohe/ex161ex4511/synthesis/ex161ex4511.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/EDA/kaohe/ex161ex4511/synthesis/ex161ex4511.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postsynth -O0
+Z11 tCvgOpt 0
+vHC161
+R1
+!i10b 1
+!s100 3XDB;Z>aQZO1Cfn?>CmDK2
+ICcOV9a<ODcU<H6I3In_`V2
+R2
+R0
+R3
+R4
+R5
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@h@c161
+vhc4511
+R1
+!i10b 1
+!s100 4e@0VgmU[[1^U2MKkRSe40
+ILfiCF7HWe`al8YA31kMnm0
+R2
+R0
+R3
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vtestbench
+R1
+!i10b 1
+!s100 8^1Y3`UYbGZ6L@4]S2_LD0
+IVjbHfGDzX7k>FRFIe]Fkb2
+R2
+R0
+w1704261903
+8C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v
+FC:/EDA/kaohe/ex161ex4511/stimulus/testbench.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/kaohe/ex161ex4511/stimulus|-vlog01compat|-work|postsynth|C:/EDA/kaohe/ex161ex4511/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+C:/EDA/kaohe/ex161ex4511/stimulus -vlog01compat -work postsynth -O0
+R11

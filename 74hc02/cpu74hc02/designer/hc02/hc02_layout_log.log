@@ -1,0 +1,68 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 3 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.9.0 
+Design: hc02                            Started: Mon Dec 04 01:14:38 2023
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: hc02                            
+Finished: Mon Dec 04 01:14:41 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:03
+Total Memory Usage: 111.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\EDA\74hc02\cpu74hc02\designer\hc02\hc02Started: Mon Dec 04 01:14:42 2023
+
+
+Router completed successfully.
+
+Design: C:\EDA\74hc02\cpu74hc02\designer\hc02\hc02
+Finished: Mon Dec 04 01:14:44 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
+Total Memory Usage: 279.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\EDA\74hc02\cpu74hc02\designer\hc02\hc02Started: Mon Dec 04 01:14:45 2023
+
+
+Router completed successfully.
+
+Design: C:\EDA\74hc02\cpu74hc02\designer\hc02\hc02
+Finished: Mon Dec 04 01:14:47 2023
+Total CPU Time:     00:00:00            Total Elapsed Time: 00:00:02
+Total Memory Usage: 279.0 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1    | 6060  | 0.02       |
+| DFF           | 0    | 6060  | 0.00       |
+| I/O Register  | 0    | 621   | 0.00       |
+| Logic Element | 1    | 6060  | 0.02       |
++---------------+------+-------+------------+
+

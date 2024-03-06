@@ -1,0 +1,14 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:HC153
+Implementation;Synthesis||null||@N: Running in 64-bit mode||HC153.srr(11);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/11||null;null
+Implementation;Synthesis||null||@N: Running in 64-bit mode||HC153.srr(15);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/15||null;null
+Implementation;Synthesis|| CG364 ||@N: Synthesizing module HC153 in library work.||HC153.srr(26);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/26||HC153.v(2);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\hdl\HC153.v'/linenumber/2
+Implementation;Synthesis||null||@N: Running in 64-bit mode||HC153.srr(38);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/38||null;null
+Implementation;Synthesis||null||@N: Running in 64-bit mode||HC153.srr(59);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/59||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||HC153.srr(82);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/82||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||HC153.srr(83);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/83||null;null
+Implementation;Synthesis|| BN225 ||@N: Writing default property annotation file D:\HC153\HC153\synthesis\HC153.sap.||HC153.srr(104);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/104||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||HC153.srr(131);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/131||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||HC153.srr(132);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/132||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||HC153.srr(237);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/237||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||HC153.srr(239);liberoaction://cross_probe/hdl/file/'D:\HC153\HC153\synthesis\HC153.srr'/linenumber/239||null;null

@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\EDA\cpu74hc194\hdl\hc194.v":21:7:21:11|Synthesizing module hc194 in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,2 @@
+@W: MT530 :"c:\eda\cpu74hc74\hdl\hc74.v":31:0:31:5|Found inferred clock HC74|CP1 which controls 1 sequential elements including Q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\eda\cpu74hc74\hdl\hc74.v":38:0:38:5|Found inferred clock HC74|CP2 which controls 1 sequential elements including Q2. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/fsm_tri/simulation
+vfsm_tri
+Z1 !s110 1704173726
+!i10b 1
+!s100 J:@d@`LX?jBQK]WoPfVAK0
+I3aB7zm;X5d==kCMF:1_fB1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703661998
+8C:/EDA/fsm_tri/hdl/fsm_tri.v
+FC:/EDA/fsm_tri/hdl/fsm_tri.v
+L0 21
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1704173726.000000
+!s107 C:/EDA/fsm_tri/hdl/fsm_tri.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/EDA/fsm_tri/hdl/fsm_tri.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vtest_fsmtri
+R1
+!i10b 1
+!s100 AMzPAnG5FQAd8^Gc:2X@f2
+Ieid;bYUhhn4`@PonN85Jf2
+R2
+R0
+w1703662553
+8C:/EDA/fsm_tri/stimulus/test_fsmtri.v
+FC:/EDA/fsm_tri/stimulus/test_fsmtri.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/fsm_tri/stimulus/test_fsmtri.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/fsm_tri/stimulus|-vlog01compat|-work|presynth|C:/EDA/fsm_tri/stimulus/test_fsmtri.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/EDA/fsm_tri/stimulus -vlog01compat -work presynth -O0
+R6

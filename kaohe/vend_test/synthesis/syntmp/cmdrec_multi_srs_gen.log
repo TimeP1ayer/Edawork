@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  vend_test  -multisrs  C:\EDA\kaohe\vend_test\synthesis\synwork\vend_test_comp.srs  -osyn  C:\EDA\kaohe\vend_test\synthesis\synwork\vend_test_mult.srs  -log  C:\EDA\kaohe\vend_test\synthesis\synlog\vend_test_multi_srs_gen.srr 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top vend_test -multisrs ..\synwork\vend_test_comp.srs -osyn ..\synwork\vend_test_mult.srs -log ..\synlog\vend_test_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\vend_test_comp.srs|io:i|time:1704174510|size:3759|exec:0|csum:215988D06BD3A4E36139C5B8313BF585
+file:..\synwork\vend_test_mult.srs|io:o|time:1704174511|size:2245|exec:0|csum:
+file:..\synlog\vend_test_multi_srs_gen.srr|io:o|time:1704174511|size:409|exec:0|csum:
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

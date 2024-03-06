@@ -1,0 +1,8 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:fsm_tri
+Implementation;Synthesis|| MT530 ||@W:Found inferred clock fsm_tri|clk which controls 4 sequential elements including current_state[3:0]. This clock has no specified timing constraint which may adversely impact design performance. ||fsm_tri.srr(111);liberoaction://cross_probe/hdl/file/'C:\EDA\fsm_tri\synthesis\fsm_tri.srr'/linenumber/111||fsm_tri.v(55);liberoaction://cross_probe/hdl/file/'c:\eda\fsm_tri\hdl\fsm_tri.v'/linenumber/55
+Implementation;Synthesis|| MT420 ||@W:Found inferred clock fsm_tri|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"||fsm_tri.srr(252);liberoaction://cross_probe/hdl/file/'C:\EDA\fsm_tri\synthesis\fsm_tri.srr'/linenumber/252||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||fsm_tri.srr(268);liberoaction://cross_probe/hdl/file/'C:\EDA\fsm_tri\synthesis\fsm_tri.srr'/linenumber/268||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||fsm_tri.srr(270);liberoaction://cross_probe/hdl/file/'C:\EDA\fsm_tri\synthesis\fsm_tri.srr'/linenumber/270||null;null
+Implementation;Compile;RootName:fsm_tri
+Implementation;Compile||(null)||Please refer to the log file for details||fsm_tri_compile_log.rpt;liberoaction://open_report/file/fsm_tri_compile_log.rpt||(null);(null)

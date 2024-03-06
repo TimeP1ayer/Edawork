@@ -1,0 +1,22 @@
+Selecting top level module vend_test
+@N: CG364 :"C:\EDA\kaohe\vend_test\hdl\vend_mealy.v":21:7:21:16|Synthesizing module vend_mealy in library work.
+
+@N: CG364 :"C:\EDA\kaohe\vend_test\hdl\vend_moore.v":21:7:21:16|Synthesizing module vend_moore in library work.
+
+@N: CG364 :"C:\EDA\kaohe\vend_test\component\work\vend_test\vend_test.v":9:7:9:15|Synthesizing module vend_test in library work.
+
+@N: CL201 :"C:\EDA\kaohe\vend_test\hdl\vend_moore.v":81:0:81:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"C:\EDA\kaohe\vend_test\hdl\vend_mealy.v":30:0:30:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000

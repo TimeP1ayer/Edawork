@@ -1,0 +1,26 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 11.9.0.4
+
+# Design Name: hc02 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Mon Dec 04 01:14:47 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io a -DIRECTION INPUT -pinname L8 -fixed no
+set_io b -DIRECTION INPUT -pinname G1 -fixed no
+set_io out -DIRECTION OUTPUT -pinname K6 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location out_obuf_RNO -fixed no 2 9

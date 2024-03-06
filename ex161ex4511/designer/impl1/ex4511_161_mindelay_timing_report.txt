@@ -1,0 +1,492 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.9 SP1
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP1 (Version 11.9.1.0)
+Date: Sun Dec 24 20:46:46 2023
+
+
+Design: ex4511_161
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CP
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.462
+
+Clock Domain:               LE
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.018
+
+                            Input to Output
+Min Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CP
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin CP_pad/U0/U0:PAD
+
+SET Register to Register
+
+Path 1
+  From:                  HC161_0/qaux[2]:CLK
+  To:                    HC161_0/qaux[2]:D
+  Delay (ns):            0.585
+  Slack (ns):
+  Arrival (ns):          1.256
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 2
+  From:                  HC161_0/qaux[0]:CLK
+  To:                    HC161_0/qaux[0]:D
+  Delay (ns):            0.610
+  Slack (ns):
+  Arrival (ns):          1.275
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 3
+  From:                  HC161_0/qaux[3]:CLK
+  To:                    HC161_0/qaux[3]:D
+  Delay (ns):            0.680
+  Slack (ns):
+  Arrival (ns):          1.351
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 4
+  From:                  HC161_0/qaux[1]:CLK
+  To:                    HC161_0/qaux[1]:D
+  Delay (ns):            0.717
+  Slack (ns):
+  Arrival (ns):          1.388
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 5
+  From:                  HC161_0/qaux[0]:CLK
+  To:                    HC161_0/qaux[1]:D
+  Delay (ns):            0.825
+  Slack (ns):
+  Arrival (ns):          1.490
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: HC161_0/qaux[2]:CLK
+  To: HC161_0/qaux[2]:D
+  data arrival time                              1.256
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CP
+               +     0.000          Clock source
+  0.000                        CP (r)
+               +     0.000          net: CP
+  0.000                        CP_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        CP_pad/U0/U0:Y (r)
+               +     0.000          net: CP_pad/U0/NET1
+  0.314                        CP_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        CP_pad/U0/U1:Y (r)
+               +     0.236          net: CP_c
+  0.671                        HC161_0/qaux[2]:CLK (r)
+               +     0.202          cell: ADLIB:DFN1C0
+  0.873                        HC161_0/qaux[2]:Q (r)
+               +     0.141          net: HC161_0_Qn[2]
+  1.014                        HC161_0/qaux_RNO[2]:C (r)
+               +     0.120          cell: ADLIB:AX1C
+  1.134                        HC161_0/qaux_RNO[2]:Y (r)
+               +     0.122          net: HC161_0/qaux_n2
+  1.256                        HC161_0/qaux[2]:D (r)
+                                    
+  1.256                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CP
+               +     0.000          Clock source
+  N/C                          CP (r)
+               +     0.000          net: CP
+  N/C                          CP_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  N/C                          CP_pad/U0/U0:Y (r)
+               +     0.000          net: CP_pad/U0/NET1
+  N/C                          CP_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  N/C                          CP_pad/U0/U1:Y (r)
+               +     0.236          net: CP_c
+  N/C                          HC161_0/qaux[2]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          HC161_0/qaux[2]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  HC161_0/TC:CLK
+  To:                    TC
+  Delay (ns):            1.791
+  Slack (ns):
+  Arrival (ns):          2.462
+  Required (ns):
+  Clock to Out (ns):     2.462
+
+
+Expanded Path 1
+  From: HC161_0/TC:CLK
+  To: TC
+  data arrival time                              2.462
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CP
+               +     0.000          Clock source
+  0.000                        CP (r)
+               +     0.000          net: CP
+  0.000                        CP_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        CP_pad/U0/U0:Y (r)
+               +     0.000          net: CP_pad/U0/NET1
+  0.314                        CP_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        CP_pad/U0/U1:Y (r)
+               +     0.236          net: CP_c
+  0.671                        HC161_0/TC:CLK (r)
+               +     0.202          cell: ADLIB:DFN1
+  0.873                        HC161_0/TC:Q (r)
+               +     0.571          net: TC_c
+  1.444                        TC_pad/U0/U1:D (r)
+               +     0.209          cell: ADLIB:IOTRI_OB_EB
+  1.653                        TC_pad/U0/U1:DOUT (r)
+               +     0.000          net: TC_pad/U0/NET1
+  1.653                        TC_pad/U0/U0:D (r)
+               +     0.809          cell: ADLIB:IOPAD_TRI
+  2.462                        TC_pad/U0/U0:PAD (r)
+               +     0.000          net: TC
+  2.462                        TC (r)
+                                    
+  2.462                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CP
+               +     0.000          Clock source
+  N/C                          CP (r)
+                                    
+  N/C                          TC (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                  HC161_0/qaux[3]:CLK
+  To:                    HC161_0/qaux[3]:CLR
+  Delay (ns):            0.678
+  Slack (ns):
+  Arrival (ns):          1.349
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             0.000
+
+Path 2
+  From:                  HC161_0/qaux[3]:CLK
+  To:                    HC161_0/qaux[2]:CLR
+  Delay (ns):            0.887
+  Slack (ns):
+  Arrival (ns):          1.558
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.056
+
+Path 3
+  From:                  HC161_0/qaux[3]:CLK
+  To:                    HC161_0/qaux[1]:CLR
+  Delay (ns):            0.929
+  Slack (ns):
+  Arrival (ns):          1.600
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.056
+
+Path 4
+  From:                  HC161_0/qaux[3]:CLK
+  To:                    HC161_0/qaux[0]:CLR
+  Delay (ns):            0.929
+  Slack (ns):
+  Arrival (ns):          1.600
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.049
+
+Path 5
+  From:                  HC161_0/qaux[1]:CLK
+  To:                    HC161_0/qaux[3]:CLR
+  Delay (ns):            0.951
+  Slack (ns):
+  Arrival (ns):          1.622
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.056
+
+
+Expanded Path 1
+  From: HC161_0/qaux[3]:CLK
+  To: HC161_0/qaux[3]:CLR
+  data arrival time                              1.349
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CP
+               +     0.000          Clock source
+  0.000                        CP (r)
+               +     0.000          net: CP
+  0.000                        CP_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        CP_pad/U0/U0:Y (r)
+               +     0.000          net: CP_pad/U0/NET1
+  0.314                        CP_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        CP_pad/U0/U1:Y (r)
+               +     0.236          net: CP_c
+  0.671                        HC161_0/qaux[3]:CLK (r)
+               +     0.252          cell: ADLIB:DFN1C0
+  0.923                        HC161_0/qaux[3]:Q (f)
+               +     0.131          net: HC161_0_Qn[3]
+  1.054                        NAND2_0:A (f)
+               +     0.179          cell: ADLIB:NAND2
+  1.233                        NAND2_0:Y (r)
+               +     0.116          net: NAND2_0_Y
+  1.349                        HC161_0/qaux[3]:CLR (r)
+                                    
+  1.349                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CP
+               +     0.000          Clock source
+  N/C                          CP (r)
+               +     0.000          net: CP
+  N/C                          CP_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  N/C                          CP_pad/U0/U0:Y (r)
+               +     0.000          net: CP_pad/U0/NET1
+  N/C                          CP_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  N/C                          CP_pad/U0/U1:Y (r)
+               +     0.236          net: CP_c
+  N/C                          HC161_0/qaux[3]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C0
+  N/C                          HC161_0/qaux[3]:CLR
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain LE
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin LE_pad/U0/U0:PAD
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  hc4511_0/SM_8S[0]:G
+  To:                    Seg[0]
+  Delay (ns):            1.351
+  Slack (ns):
+  Arrival (ns):          2.018
+  Required (ns):
+  Clock to Out (ns):     2.018
+
+Path 2
+  From:                  hc4511_0/SM_8S[1]:G
+  To:                    Seg[1]
+  Delay (ns):            1.557
+  Slack (ns):
+  Arrival (ns):          2.222
+  Required (ns):
+  Clock to Out (ns):     2.222
+
+Path 3
+  From:                  hc4511_0/SM_8S[3]:G
+  To:                    Seg[3]
+  Delay (ns):            1.560
+  Slack (ns):
+  Arrival (ns):          2.225
+  Required (ns):
+  Clock to Out (ns):     2.225
+
+Path 4
+  From:                  hc4511_0/SM_8S[2]:G
+  To:                    Seg[2]
+  Delay (ns):            1.623
+  Slack (ns):
+  Arrival (ns):          2.285
+  Required (ns):
+  Clock to Out (ns):     2.285
+
+Path 5
+  From:                  hc4511_0/SM_8S[5]:G
+  To:                    Seg[5]
+  Delay (ns):            1.751
+  Slack (ns):
+  Arrival (ns):          2.418
+  Required (ns):
+  Clock to Out (ns):     2.418
+
+
+Expanded Path 1
+  From: hc4511_0/SM_8S[0]:G
+  To: Seg[0]
+  data arrival time                              2.018
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        LE
+               +     0.000          Clock source
+  0.000                        LE (r)
+               +     0.000          net: LE
+  0.000                        LE_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        LE_pad/U0/U0:Y (r)
+               +     0.000          net: LE_pad/U0/NET1
+  0.314                        LE_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        LE_pad/U0/U1:Y (r)
+               +     0.232          net: LE_c
+  0.667                        hc4511_0/SM_8S[0]:G (r)
+               +     0.193          cell: ADLIB:DLN0
+  0.860                        hc4511_0/SM_8S[0]:Q (r)
+               +     0.122          net: Seg_c[0]
+  0.982                        Seg_pad[0]/U0/U1:D (r)
+               +     0.227          cell: ADLIB:IOTRI_OB_EB
+  1.209                        Seg_pad[0]/U0/U1:DOUT (r)
+               +     0.000          net: Seg_pad[0]/U0/NET1
+  1.209                        Seg_pad[0]/U0/U0:D (r)
+               +     0.809          cell: ADLIB:IOPAD_TRI
+  2.018                        Seg_pad[0]/U0/U0:PAD (r)
+               +     0.000          net: Seg[0]
+  2.018                        Seg[0] (r)
+                                    
+  2.018                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          LE
+               +     0.000          Clock source
+  N/C                          LE (r)
+                                    
+  N/C                          Seg[0] (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

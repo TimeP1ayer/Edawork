@@ -1,0 +1,23 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    EZEKIEL
+Date:        Mon Dec 04 00:50:09 2023
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro hc00_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "hc00_syn.tcl"
+New HDL Analyst: enabled
+Note: Opening local project RTL file 'C:\EDA\74hc00\cpu74hc00\synthesis\hc00.srs'
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,45 @@
+Target Part: A3P060_VQFP100_STD
+Report for cell ex161ex4511.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AOI1     1      1.0        1.0
+              AX1C     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+               GND     3      0.0        0.0
+               INV     1      1.0        1.0
+              MX2A     1      1.0        1.0
+              NOR2     1      1.0        1.0
+             NOR2A     4      1.0        4.0
+              NOR3     3      1.0        3.0
+             NOR3B     3      1.0        3.0
+             NOR3C     3      1.0        3.0
+              OA1B     1      1.0        1.0
+              OA1C     2      1.0        2.0
+               OR2     1      1.0        1.0
+               OR3     1      1.0        1.0
+              OR3A     1      1.0        1.0
+               VCC     3      0.0        0.0
+              XA1B     1      1.0        1.0
+              XOR2     2      1.0        2.0
+
+
+            DFN1C0     4      1.0        4.0
+                   -----          ----------
+             TOTAL    38                32.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF     8
+                   -----
+             TOTAL    10
+
+
+Core Cells         : 32 of 1536 (2%)
+IO Cells           : 10
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+

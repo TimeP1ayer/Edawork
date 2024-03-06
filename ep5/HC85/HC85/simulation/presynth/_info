@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HC85/HC85/simulation
+vHC85
+Z1 !s110 1702205716
+!i10b 1
+!s100 e9BLc=bU229R:2jNkFB212
+IS;6eDFFJf^if;9618Z]zh3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702190085
+8D:/HC85/HC85/hdl/HC85.v
+FD:/HC85/HC85/hdl/HC85.v
+L0 1
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1702205716.000000
+!s107 D:/HC85/HC85/hdl/HC85.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/HC85/HC85/hdl/HC85.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+n@h@c85
+vtest_HC85
+R1
+!i10b 1
+!s100 5Sb?6ZL]?GYY<8@42NYdz2
+IR2ZF@[h@h@HNZUAM3>Gbm2
+R2
+R0
+w1702205710
+8D:/HC85/HC85/stimulus/test_HC85.v
+FD:/HC85/HC85/stimulus/test_HC85.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HC85/HC85/stimulus/test_HC85.v|
+!s90 -reportprogress|300|+incdir+D:/HC85/HC85/stimulus|-vlog01compat|-work|presynth|D:/HC85/HC85/stimulus/test_HC85.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+D:/HC85/HC85/stimulus -vlog01compat -work presynth -O0
+R6
+ntest_@h@c85

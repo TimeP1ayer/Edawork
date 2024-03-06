@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>hc4511</design>
+	<target_edif>C:\EDA\cpu74hc4511\synthesis\hc4511.edn</target_edif>
+</SynplifyOutput>

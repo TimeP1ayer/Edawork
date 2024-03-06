@@ -1,0 +1,32 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "vend_mealy")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "vend_mealy")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT current_state\[0\]/CLK  current_state\[0\]/Q  current_state_ns_i_o3\[0\]/B  current_state_ns_i_o3\[0\]/Y  current_state_ns_i\[1\]/C  current_state_ns_i\[1\]/Y  current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT current_state\[1\]/CLK  current_state\[1\]/Q  current_state_ns_i_RNO\[0\]/A  current_state_ns_i_RNO\[0\]/Y  current_state_ns_i\[0\]/C  current_state_ns_i\[0\]/Y  current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT current_state\[1\]/CLK  current_state\[1\]/Q  current_state_ns_i\[1\]/A  current_state_ns_i\[1\]/Y  current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT current_state\[0\]/CLK  current_state\[0\]/Q  current_state_ns_i\[0\]/A  current_state_ns_i\[0\]/Y  current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT current_state\[0\]/CLK  current_state\[0\]/Q  current_state_ns_i_o3\[0\]/B  current_state_ns_i_o3\[0\]/Y  D_out_mealy_pad_RNO/C  D_out_mealy_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT current_state\[1\]/CLK  current_state\[1\]/Q  D_out_mealy_pad_RNO/A  D_out_mealy_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

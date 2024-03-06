@@ -1,0 +1,1 @@
+@W: MT530 :"c:\eda\kaohe\vend_test\hdl\vend_mealy.v":30:0:30:5|Found inferred clock vend_test|Clk which controls 9 sequential elements including vend_mealy_0.current_state[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

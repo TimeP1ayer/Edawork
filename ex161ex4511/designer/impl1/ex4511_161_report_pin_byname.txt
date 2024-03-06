@@ -1,0 +1,23 @@
+*****************************************************************
+Pin Report - Date: Sun Dec 24 20:46:42 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: ex4511_161
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port   |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|--------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CP      57   Yes    GDA1/IO49RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+LE      58   Yes    GDC0/IO46RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+Seg[0]  59   Yes    GDC1/IO45RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[1]  60   Yes    GCC2/IO43RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[2]  61   Yes    GCB2/IO42RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[3]  62   Yes    GCA0/IO40RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[4]  63   Yes    GCA1/IO39RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[5]  64   Yes    GCC0/IO36RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[6]  65   Yes    GCC1/IO35RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Seg[7]  69   Yes    IO31RSB0       LVCMOS33  12                 High  None           No    35                No           No
+TC      70   Yes    GBC2/IO29RSB0  LVCMOS33  12                 High  None           No    35                No           No

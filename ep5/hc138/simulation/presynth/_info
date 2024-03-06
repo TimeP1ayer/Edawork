@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Liberoprj/hc138/simulation
+vhc138
+Z1 !s110 1702208261
+!i10b 1
+!s100 6Dz6d@j0Vl5OIZdlbz^I>3
+IN8?=7nji;L8m[jzTG]AR02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702208256
+8D:/Liberoprj/hc138/hdl/hc138.v
+FD:/Liberoprj/hc138/hdl/hc138.v
+L0 21
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1702208261.000000
+!s107 D:/Liberoprj/hc138/hdl/hc138.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/Liberoprj/hc138/hdl/hc138.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vtesthc138
+R1
+!i10b 1
+!s100 a4GU>el[cO>AB1oDYb2HH0
+I>?o_m_omYBliQKTL87CHR2
+R2
+R0
+w1702208077
+8D:/Liberoprj/hc138/stimulus/testhc138.v
+FD:/Liberoprj/hc138/stimulus/testhc138.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Liberoprj/hc138/stimulus/testhc138.v|
+!s90 -reportprogress|300|+incdir+D:/Liberoprj/hc138/stimulus|-vlog01compat|-work|presynth|D:/Liberoprj/hc138/stimulus/testhc138.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+D:/Liberoprj/hc138/stimulus -vlog01compat -work presynth -O0
+R6

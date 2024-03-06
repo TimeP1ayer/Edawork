@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/74hc00/cpu74hc00/simulation
+vhc00
+Z1 !s110 1701624215
+!i10b 1
+!s100 no:h5?z`8M>ae2>Ed2l0e3
+I3KE:H[W^8hj8VJ1fO6VlD0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701623854
+8C:/EDA/74hc00/cpu74hc00/designer/impl1/hc00_ba.v
+FC:/EDA/74hc00/cpu74hc00/designer/impl1/hc00_ba.v
+L0 6
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1701624214.000000
+!s107 C:/EDA/74hc00/cpu74hc00/designer/impl1/hc00_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/EDA/74hc00/cpu74hc00/designer/impl1/hc00_ba.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work postlayout -O0
+Z5 tCvgOpt 0
+vtesthc00
+R1
+!i10b 1
+!s100 m8cEE_m]K1g:^?RTaA<:12
+Izg`b2m`k0W7aU7B]W<l6H3
+R2
+R0
+w1701621595
+8C:/EDA/74hc00/cpu74hc00/stimulus/testhc00.v
+FC:/EDA/74hc00/cpu74hc00/stimulus/testhc00.v
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1701624215.000000
+!s107 C:/EDA/74hc00/cpu74hc00/stimulus/testhc00.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/74hc00/cpu74hc00/stimulus|-vlog01compat|-work|postlayout|C:/EDA/74hc00/cpu74hc00/stimulus/testhc00.v|
+!s101 -O0
+!i113 1
+R4
+!s92 +incdir+C:/EDA/74hc00/cpu74hc00/stimulus -vlog01compat -work postlayout -O0
+R5

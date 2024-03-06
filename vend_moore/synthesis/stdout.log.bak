@@ -1,0 +1,79 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    EZEKIEL
+Date:        Wed Dec 27 15:01:09 2023
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro vend_moore_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Implementation not found: synthesis
+TCL script complete: "vend_moore_syn.tcl"
+New HDL Analyst: enabled
+log file: "C:\EDA\vend_moore\synthesis\vend_moore.srr"
+Running: synthesis in foreground
+
+Running vend_moore_syn|synthesis
+
+Running: compile (Compile) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:15 2023
+
+Running: compile_flow (Compile Process) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:15 2023
+
+Running: compiler (Compile Input) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:15 2023
+Copied C:\EDA\vend_moore\synthesis\synwork\vend_moore_comp.srs to C:\EDA\vend_moore\synthesis\vend_moore.srs
+
+compiler completed
+# Wed Dec 27 15:01:16 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:16 2023
+
+multi_srs_gen completed
+# Wed Dec 27 15:01:16 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\EDA\vend_moore\synthesis\synwork\vend_moore_mult.srs to C:\EDA\vend_moore\synthesis\vend_moore.srs
+Complete: Compile Process on vend_moore_syn|synthesis
+
+Running: premap (Pre-mapping) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:16 2023
+
+premap completed with warnings
+# Wed Dec 27 15:01:17 2023
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on vend_moore_syn|synthesis
+
+Running: map (Map) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:17 2023
+
+Running: fpga_mapper (Map & Optimize) on vend_moore_syn|synthesis
+# Wed Dec 27 15:01:17 2023
+Copied C:\EDA\vend_moore\synthesis\synwork\vend_moore_m.srm to C:\EDA\vend_moore\synthesis\vend_moore.srm
+
+fpga_mapper completed with warnings
+# Wed Dec 27 15:01:17 2023
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Map on vend_moore_syn|synthesis
+Complete: Logic Synthesis on vend_moore_syn|synthesis
+Note: Opening local project RTL file 'C:\EDA\vend_moore\synthesis\vend_moore.srs'
+exit status=0
+License checkin: synplifypro_actel

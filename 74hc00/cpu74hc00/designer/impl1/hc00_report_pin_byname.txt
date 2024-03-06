@@ -1,0 +1,15 @@
+*****************************************************************
+Pin Report - Date: Mon Dec 04 01:33:44 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: hc00
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+a     26   Yes    GEA2/IO71RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+b     27   Yes    GEB2/IO70RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+out   30   Yes    IO67RSB1       LVTTL    12                 High  None           No    35                No           No

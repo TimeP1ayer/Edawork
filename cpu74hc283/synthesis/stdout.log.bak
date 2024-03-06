@@ -1,0 +1,98 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    EZEKIEL
+Date:        Wed Jan 03 01:57:12 2024
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro hc283_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Implementation not found: synthesis
+TCL script complete: "hc283_syn.tcl"
+New HDL Analyst: enabled
+log file: "C:\EDA\cpu74hc283\synthesis\hc283.srr"
+Running: synthesis in foreground
+
+Running hc283_syn|synthesis
+
+Running: compile (Compile) on hc283_syn|synthesis
+# Wed Jan 03 01:57:15 2024
+
+Running: compile_flow (Compile Process) on hc283_syn|synthesis
+# Wed Jan 03 01:57:15 2024
+
+Running: compiler (Compile Input) on hc283_syn|synthesis
+# Wed Jan 03 01:57:15 2024
+compiler exited with errors
+Job failed on: hc283_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\EDA\cpu74hc283\synthesis\synlog\hc283_compiler.srr"
+# Wed Jan 03 01:57:15 2024
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on hc283_syn|synthesis
+Complete: Compile on hc283_syn|synthesis
+Complete: Logic Synthesis on hc283_syn|synthesis
+Copied C:\EDA\cpu74hc283\synthesis\hc283.srr to C:\EDA\cpu74hc283\synthesis\backup\hc283.srr
+log file: "C:\EDA\cpu74hc283\synthesis\hc283.srr"
+Running: synthesis in foreground
+
+Running hc283_syn|synthesis
+
+Running: compile (Compile) on hc283_syn|synthesis
+# Wed Jan 03 01:57:22 2024
+
+Running: compile_flow (Compile Process) on hc283_syn|synthesis
+# Wed Jan 03 01:57:22 2024
+
+Running: compiler (Compile Input) on hc283_syn|synthesis
+# Wed Jan 03 01:57:22 2024
+compiler exited with errors
+Job failed on: hc283_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\EDA\cpu74hc283\synthesis\synlog\hc283_compiler.srr"
+# Wed Jan 03 01:57:22 2024
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on hc283_syn|synthesis
+Complete: Compile on hc283_syn|synthesis
+Complete: Logic Synthesis on hc283_syn|synthesis
+log file: "C:\EDA\cpu74hc283\synthesis\hc283.srr"
+Running: synthesis in foreground
+
+Running hc283_syn|synthesis
+
+Running: compile (Compile) on hc283_syn|synthesis
+# Wed Jan 03 01:57:34 2024
+
+Running: compile_flow (Compile Process) on hc283_syn|synthesis
+# Wed Jan 03 01:57:34 2024
+
+Running: compiler (Compile Input) on hc283_syn|synthesis
+# Wed Jan 03 01:57:34 2024
+compiler exited with errors
+Job failed on: hc283_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\EDA\cpu74hc283\synthesis\synlog\hc283_compiler.srr"
+# Wed Jan 03 01:57:35 2024
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Compile Process on hc283_syn|synthesis
+Complete: Compile on hc283_syn|synthesis
+Complete: Logic Synthesis on hc283_syn|synthesis
+exit status=2
+License checkin: synplifypro_actel

@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\cpu74hc283\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\cpu74hc283\synthesis\synlog\report\hc283_fpga_mapper.xml  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\EDA\cpu74hc283\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\EDA\cpu74hc283\synthesis\hc283.edn   -freq 100.000   C:\EDA\cpu74hc283\synthesis\synwork\hc283_prem.srd  -sap  C:\EDA\cpu74hc283\synthesis\hc283.sap  -otap  C:\EDA\cpu74hc283\synthesis\hc283.tap  -omap  C:\EDA\cpu74hc283\synthesis\hc283.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  C:\EDA\cpu74hc283\synthesis\hc283.sap  -ologparam  C:\EDA\cpu74hc283\synthesis\syntmp\hc283.plg  -osyn  C:\EDA\cpu74hc283\synthesis\hc283.srm  -prjdir  C:\EDA\cpu74hc283\synthesis\  -prjname  hc283_syn  -log  C:\EDA\cpu74hc283\synthesis\synlog\hc283_fpga_mapper.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\hc283_fpga_mapper.xml -licensetype synplifypro_actel -flow mapping -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\hc283.edn -freq 100.000 ..\synwork\hc283_prem.srd -sap ..\hc283.sap -otap ..\hc283.tap -omap ..\hc283.map -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\hc283.sap -ologparam hc283.plg -osyn ..\hc283.srm -prjdir ..\ -prjname hc283_syn -log ..\synlog\hc283_fpga_mapper.srr
+rc:0 success:1 runtime:2
+file:..\scratchproject.prs|io:o|time:1704218463|size:1630|exec:0|csum:
+file:..\hc283.edn|io:o|time:1704218466|size:12314|exec:0|csum:
+file:..\synwork\hc283_prem.srd|io:i|time:1704218464|size:1482|exec:0|csum:AC51C88EB59F086C0BAB6FD2EB6302A6
+file:..\hc283.sap|io:o|time:1704218464|size:113|exec:0|csum:
+file:..\hc283.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\hc283.map|io:o|time:1704218466|size:28|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\hc283.sap|io:o|time:1704218464|size:113|exec:0|csum:
+file:hc283.plg|io:o|time:1704218466|size:97|exec:0|csum:
+file:..\hc283.srm|io:o|time:1704218466|size:64658|exec:0|csum:
+file:..\synlog\hc283_fpga_mapper.srr|io:o|time:1704218466|size:7465|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

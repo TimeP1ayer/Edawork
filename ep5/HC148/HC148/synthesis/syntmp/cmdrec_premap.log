@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  D:\HC148\HC148\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\HC148\HC148\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\HC148\HC148\synthesis\synlog\report\HC148_premap.xml  -top_level_module  HC148  -oedif  D:\HC148\HC148\synthesis\HC148.edn  -conchk_prepass  D:\HC148\HC148\synthesis\HC148_cck.rpt   -freq 100.000   D:\HC148\HC148\synthesis\synwork\HC148_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\HC148\HC148\synthesis\synwork\HC148_prem.srd  -qsap  D:\HC148\HC148\synthesis\HC148.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  D:\HC148\HC148\synthesis\syntmp\HC148.plg  -osyn  D:\HC148\HC148\synthesis\synwork\HC148_prem.srd  -prjdir  D:\HC148\HC148\synthesis\  -prjname  HC148_syn  -log  D:\HC148\HC148\synthesis\synlog\HC148_premap.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\HC148_premap.xml -top_level_module HC148 -oedif ..\HC148.edn -conchk_prepass ..\HC148_cck.rpt -freq 100.000 ..\synwork\HC148_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\HC148_prem.srd -qsap ..\HC148.sap -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam HC148.plg -osyn ..\synwork\HC148_prem.srd -prjdir ..\ -prjname HC148_syn -log ..\synlog\HC148_premap.srr
+rc:0 success:1 runtime:2
+file:..\scratchproject.prs|io:o|time:1702191380|size:1650|exec:0|csum:
+file:..\HC148.edn|io:o|time:0|size:0|exec:0|csum:
+file:..\HC148_cck.rpt|io:o|time:1702191385|size:19963|exec:0|csum:
+file:..\synwork\HC148_mult.srs|io:i|time:1702191383|size:2037|exec:0|csum:4A32AEA13ACE1361095488EBA52D0266
+file:..\synwork\HC148_prem.srd|io:o|time:1702191385|size:2421|exec:0|csum:
+file:..\HC148.sap|io:o|time:1702191385|size:113|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:HC148.plg|io:o|time:1702191385|size:0|exec:0|csum:
+file:..\synwork\HC148_prem.srd|io:o|time:1702191385|size:2421|exec:0|csum:
+file:..\synlog\HC148_premap.srr|io:o|time:1702191385|size:2379|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

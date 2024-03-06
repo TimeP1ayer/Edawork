@@ -1,0 +1,7 @@
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\eda\kaohe\ex148_ex4511\hdl\hc4511.v":31:4:31:5|Sequential instance hc4511_0.SM_8S[6] is reduced to a combinational gate by constant propagation.

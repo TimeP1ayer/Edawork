@@ -1,0 +1,2 @@
+@W: MO129 :"c:\eda\kaohe\ex161ex4511\hdl\hc4511.v":11:4:11:5|Sequential instance hc4511_0.SM_8S[7] is reduced to a combinational gate by constant propagation.
+@W: MT530 :"c:\eda\kaohe\ex161ex4511\hdl\hc161.v":31:0:31:5|Found inferred clock ex161ex4511|CP which controls 4 sequential elements including HC161_0.qaux[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

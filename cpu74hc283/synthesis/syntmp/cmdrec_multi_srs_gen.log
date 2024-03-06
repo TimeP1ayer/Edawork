@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  C:\EDA\cpu74hc283\synthesis\synwork\hc283_comp.srs  -osyn  C:\EDA\cpu74hc283\synthesis\synwork\hc283_mult.srs  -log  C:\EDA\cpu74hc283\synthesis\synlog\hc283_multi_srs_gen.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\hc283_comp.srs -osyn ..\synwork\hc283_mult.srs -log ..\synlog\hc283_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\hc283_comp.srs|io:i|time:1704218463|size:1525|exec:0|csum:94B112F15A82ADBE3E92739A06AAE90C
+file:..\synwork\hc283_mult.srs|io:o|time:1704218464|size:1259|exec:0|csum:
+file:..\synlog\hc283_multi_srs_gen.srr|io:o|time:1704218464|size:641|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

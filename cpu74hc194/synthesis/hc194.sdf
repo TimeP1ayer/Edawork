@@ -1,0 +1,40 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "hc194")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "hc194")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT Qaux\[1\]/CLK  Qaux\[1\]/Q  Qaux_5_0\[2\]/A  Qaux_5_0\[2\]/Y  Qaux_5\[2\]/B  Qaux_5\[2\]/Y  Qaux\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[2\]/CLK  Qaux\[2\]/Q  Qaux_5_0\[3\]/A  Qaux_5_0\[3\]/Y  Qaux_5\[3\]/B  Qaux_5\[3\]/Y  Qaux\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[0\]/CLK  Qaux\[0\]/Q  Qaux_5_0\[1\]/A  Qaux_5_0\[1\]/Y  Qaux_5\[1\]/B  Qaux_5\[1\]/Y  Qaux\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[1\]/CLK  Qaux\[1\]/Q  Qaux_5\[0\]/A  Qaux_5\[0\]/Y  Qaux\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[2\]/CLK  Qaux\[2\]/Q  Qaux_5\[1\]/A  Qaux_5\[1\]/Y  Qaux\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[3\]/CLK  Qaux\[3\]/Q  Qaux_5\[2\]/A  Qaux_5\[2\]/Y  Qaux\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Qaux\[1\]/CLK  Qaux\[1\]/Q  Q1_pad/D  Q1_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Qaux\[2\]/CLK  Qaux\[2\]/Q  Q2_pad/D  Q2_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Qaux\[0\]/CLK  Qaux\[0\]/Q  Q0_pad/D  Q0_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Qaux\[3\]/CLK  Qaux\[3\]/Q  Q3_pad/D  Q3_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:39:34|Found 1 by 1 bit less-than operator ('<') _l0\.Q19 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:40:37|Found 1 by 1 bit less-than operator ('<') _l0\.Q20 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:39:34|Found 1 by 1 bit less-than operator ('<') _l1\.Q26 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:40:37|Found 1 by 1 bit less-than operator ('<') _l1\.Q27 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:39:34|Found 1 by 1 bit less-than operator ('<') _l2\.Q33 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:40:37|Found 1 by 1 bit less-than operator ('<') _l2\.Q34 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:39:34|Found 1 by 1 bit less-than operator ('<') _l3\.Q40 (in view: work.HC85(verilog))
+@N: MF179 :"c:\eda\cpu74hc85\hdl\hc85.v":39:15:40:37|Found 1 by 1 bit less-than operator ('<') _l3\.Q41 (in view: work.HC85(verilog))
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

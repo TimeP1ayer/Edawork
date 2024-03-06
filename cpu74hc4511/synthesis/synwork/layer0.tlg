@@ -1,0 +1,5 @@
+Selecting top level module hc4511
+@N: CG364 :"C:\EDA\cpu74hc4511\hdl\hc4511.v":21:7:21:12|Synthesizing module hc4511 in library work.
+
+@N: CG179 :"C:\EDA\cpu74hc4511\hdl\hc4511.v":34:21:34:25|Removing redundant assignment.
+@W: CL118 :"C:\EDA\cpu74hc4511\hdl\hc4511.v":31:4:31:5|Latch generated from always block for signal SM_8S[7:0]; possible missing assignment in an if or case statement.

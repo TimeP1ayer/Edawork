@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)</text>
+<text>Date: Mon Dec 04 01:14:41 2023
+</text>
+<section>
+<name>Global Nets Information</name>
+<text>(none)</text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Local Clock Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Global Clock Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+</doc>

@@ -1,0 +1,293 @@
+# Wed Jan 03 14:57:55 2024
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: MO231 :"c:\eda\cpu74hc161\hdl\hc161.v":31:0:31:5|Found counter in view:work.hc161(verilog) instance qaux[3:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: FP130 |Promoting Net CP_c on CLKBUF  CP_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 5 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CP                  port                   5          qaux[0]        
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing Analyst data base C:\EDA\cpu74hc161\synthesis\synwork\hc161_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@W: MT420 |Found inferred clock hc161|CP with period 10.00ns. Please declare a user-defined clock on object "p:CP"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jan 03 14:57:55 2024
+#
+
+
+Top view:               hc161
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 5.141
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+hc161|CP           100.0 MHz     205.8 MHz     10.000        4.859         5.141     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+hc161|CP  hc161|CP  |  10.000      5.141  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: hc161|CP
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                       Arrival          
+Instance     Reference     Type         Pin     Net         Time        Slack
+             Clock                                                           
+-----------------------------------------------------------------------------
+qaux[0]      hc161|CP      DFN1E1C0     Q       Qn_c[0]     0.737       5.141
+qaux[2]      hc161|CP      DFN1E1C0     Q       Qn_c[2]     0.737       5.301
+qaux[1]      hc161|CP      DFN1E1C0     Q       Qn_c[1]     0.737       5.349
+qaux[3]      hc161|CP      DFN1E1C0     Q       Qn_c[3]     0.737       6.119
+=============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                       Required          
+Instance     Reference     Type         Pin     Net         Time         Slack
+             Clock                                                            
+------------------------------------------------------------------------------
+qaux[2]      hc161|CP      DFN1E1C0     D       qaux_n2     9.461        5.141
+qaux[3]      hc161|CP      DFN1E1C0     D       qaux_n3     9.461        5.167
+TC           hc161|CP      DFN1         D       TC4         9.427        5.629
+qaux[1]      hc161|CP      DFN1E1C0     D       qaux_n1     9.461        5.838
+qaux[0]      hc161|CP      DFN1E1C0     D       N_20        9.461        6.514
+==============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      4.321
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.141
+
+    Number of logic level(s):                2
+    Starting point:                          qaux[0] / Q
+    Ending point:                            qaux[2] / D
+    The start point is clocked by            hc161|CP [rising] on pin CLK
+    The end   point is clocked by            hc161|CP [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+qaux[0]            DFN1E1C0     Q        Out     0.737     0.737       -         
+Qn_c[0]            Net          -        -       1.279     -           5         
+qaux_c1            NOR2B        B        In      -         2.016       -         
+qaux_c1            NOR2B        Y        Out     0.627     2.644       -         
+qaux_c1            Net          -        -       0.386     -           2         
+qaux_n2            AX1C         B        In      -         3.029       -         
+qaux_n2            AX1C         Y        Out     0.970     3.999       -         
+qaux_n2            Net          -        -       0.322     -           1         
+qaux[2]            DFN1E1C0     D        In      -         4.321       -         
+=================================================================================
+Total path delay (propagation time + setup) of 4.859 is 2.873(59.1%) logic and 1.986(40.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P060_VQFP100_STD
+Report for cell hc161.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AO1B     1      1.0        1.0
+              AX1C     3      1.0        3.0
+               GND     1      0.0        0.0
+               MX2     3      1.0        3.0
+              MX2B     1      1.0        1.0
+             NOR2B     3      1.0        3.0
+             NOR3B     1      1.0        1.0
+               VCC     1      0.0        0.0
+
+
+              DFN1     1      1.0        1.0
+          DFN1E1C0     4      1.0        4.0
+                   -----          ----------
+             TOTAL    19                17.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     8
+            OUTBUF     5
+                   -----
+             TOTAL    14
+
+
+Core Cells         : 17 of 1536 (1%)
+IO Cells           : 14
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jan 03 14:57:55 2024
+
+###########################################################]
